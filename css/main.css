@@ -1,0 +1,18 @@
+.slider{
+    height: 550px;
+}
+.field{
+    background-color: black;
+    opacity: 0.8;
+}
+.bottom{
+    bottom: 0%;
+}
+.right{
+    right: 0%;
+    top: 0%;
+    height: 100%;
+}
+.blue{
+    background-color: #33357B;
+}
