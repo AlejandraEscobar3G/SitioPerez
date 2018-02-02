@@ -16,3 +16,35 @@
 .blue{
     background-color: #33357B;
 }
+/* section titles */
+.section{
+    background-color: rgba(18, 155, 91, 0.79);
+}
+#certificaciones{
+    background-image: url("../img/fondos/certificaciones.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0% 50%;
+}
+#servicios{
+    background-image: url("../img/fondos/servicio.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0% 60%;
+}
+#clientes{
+    background-image: url("../img/fondos/clientes.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 20% 12%;
+}
+#contacto{
+    background-image: url("../img/fondos/contacto.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 20% 40%;
+}
+.display-5{
+    font-size: 2.5rem;
+    font-weight: 1;
+}
