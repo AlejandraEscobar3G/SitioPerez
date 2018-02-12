@@ -8,6 +8,7 @@
     <title>TyL Pérez</title>
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
@@ -43,11 +44,11 @@
     <!-- slider -->
     <div class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item ">
+            <div class="carousel-item">
                 <div class="blue p-4 text-light container-fluid">
                     <div class="row">
                         <div class="col">
-                            <p class="h1 p-4">MISIÓN, VISIÓN Y TRAYECTORIA</p>
+                            <p class="title p-4">MISIÓN, VISIÓN Y TRAYECTORIA</p>
                         </div>
                     </div>
                     <div class="row">
@@ -60,7 +61,7 @@
                     </div>
                 </div>
                 <div class="position-relative">
-                    <img class="d-block w-100 slider" src="img/inicio/equipo.jpg" alt="1 slide">
+                    <img class="d-block img-fluid" src="img/inicio/equipo.jpg" alt="1 slide">
                     <div class="position-absolute field bottom d-none d-md-block">
                         <p class="w-50 d-block float-left text-light py-4 px-5 text-justify">Buscamos la excelencia y la rentabilidad mediante los niveles óptimos de competitividad, servicio, calidad, seguridad y protección al medio ambiente.</p>
                         <p class="w-50 d-block float-left text-light py-4 px-5 text-justify">Reconocemos el valor de nuestro personal fomentando su constante superación para contar con recursos humanos calificados y comprometidos.</p>
@@ -71,7 +72,7 @@
                 <div class="blue p-4 text-light container-fluid">
                     <div class="row">
                         <div class="col-12 col-md-5">
-                            <p class="h1 p-4">RASTREO GPS</p>
+                            <p class="title p-4">RASTREO GPS</p>
                             <p class="text-justify px-4">Rastreo y monitoreo permanente durante todo el trayecto de su carga.</p>
                         </div>
                         <div class="col-12 col-md-7">
@@ -84,13 +85,13 @@
                         </div>
                     </div>
                 </div>
-                <img class="d-block w-100 slider" src="img/inicio/gps.jpg" alt="2 slide">
+                <img class="d-block img-fluid" src="img/inicio/gps.jpg" alt="2 slide">
             </div>
             <div class="carousel-item">
                 <div class="blue p-4 text-light container-fluid">
                     <div class="row">
                         <div class="col">
-                            <p class="h1 p-4">AUTOPROTECCIÓN</p>
+                            <p class="title p-4">AUTOPROTECCIÓN</p>
                         </div>
                     </div>
                     <div class="row">
@@ -100,8 +101,8 @@
                     </div>
                 </div>
                 <div class="position-relative">
-                    <img class="d-block w-100 slider" src="img/inicio/autoproteccion.jpg" alt="3 slide">
-                    <div class="position-absolute field right d-block p-5 text-light">
+                    <img class="d-block img-fluid" src="img/inicio/autoproteccion.jpg" alt="3 slide">
+                    <div class="position-absolute field right d-none d-lg-block p-5 text-light">
                         <ul class="list-unstyled py-5 px-3">
                             <li>√ Material absorbente de 50 kg.</li>
                             <li>√ Contenedor, bolsas transparentes.</li>
@@ -125,7 +126,7 @@
                 <div class="blue p-4 text-light container-fluid">
                     <div class="row">
                         <div class="col">
-                            <p class="h1 p-4">EVALUACIÓN DE RIESGOS</p>
+                            <p class="title p-4">EVALUACIÓN DE RIESGOS</p>
                         </div>
                     </div>
                     <div class="row">
@@ -157,7 +158,7 @@
                 <div class="blue p-4 text-light container-fluid">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <p class="h1 p-4">MIEMBROS PROCCYT</p>
+                            <p class="title p-4">MIEMBROS PROCCYT</p>
                             <p class="text-justify px-4">Reconocimiento por parte de PROCCYT por alcanzar los más altos estándares de calidad en transportación, noviembre 2004.</p>
                         </div>
                     </div>
@@ -165,10 +166,10 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-6 col-lg-7">
-                            <img class="d-block float-right slider" src="img/inicio/proccyt.png" alt="5 slide">
+                            <img class="d-block float-right slider" id="slide-proc" src="img/inicio/proccyt.png" alt="5 slide">
                         </div>
-                        <div class="col-6 col-lg-5">
-                            <img class="d-block slider p-5" src="img/inicio/logo_proccyt.png" alt="proccyt">
+                        <div class="col-6 col-lg-5 col align-self-center">
+                            <img class="d-block img-fluid p-5" src="img/inicio/logo_proccyt.png" alt="proccyt">
                         </div>
                     </div>
                 </div>
@@ -319,7 +320,7 @@
                         <textarea class="form-control" id="message" rows="3" placeholder="¿Cómo le podemos ayudar?"></textarea>
                     </div>
                     <br>
-                    <button type="submit" class="btn btn-default">Submit</button>
+                    <button type="submit" class="btn btn-default">Enviar</button>
                 </form>
             </div>
             <div class="col-12 col-md-6 p-3">
