@@ -65,8 +65,8 @@ div.carousel-item {
     width: 50%;
 }
 .h-90{
-    height: 140px;
-    width: 150px;
+    height: 100%;
+    width: 45%
 }
 .middle{
     padding-top: 55px;
