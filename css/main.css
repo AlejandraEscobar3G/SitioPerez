@@ -16,6 +16,14 @@
 .blue{
     background-color: #33357B;
 }
+div.carousel-item {
+    padding-top: 100px;
+}
+.block-hide{
+    position: absolute;
+    width: 100%;
+    bottom: 100%;
+}
 /* section titles */
 .section{
     background-color: rgba(18, 155, 91, 0.79);
