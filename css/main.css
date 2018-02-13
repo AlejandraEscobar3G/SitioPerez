@@ -1,87 +1,97 @@
-.slider{
-    height: auto;
-}
-#slide-proc{
-    width: 50%;
-}
-.field{
-    background-color: black;
-    opacity: 0.8;
-}
-.bottom{
-    bottom: 0%;
-}
-.right{
-    right: 0%;
-    top: 0%;
-    height: 100%;
-}
-.blue{
-    background-color: #33357B;
-}
-div.carousel-item {
-    padding-top: 100px;
-}
-.block-hide{
-    position: absolute;
-    width: 100%;
-    bottom: 100%;
-}
-/* section titles */
-.section{
-    background-color: rgba(18, 155, 91, 0.79);
-}
-#certificaciones{
-    background-image: url("../img/fondos/certificaciones.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: 0% 50%;
-}
-#servicios{
-    background-image: url("../img/fondos/servicio.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: 0% 60%;
-}
-#clientes{
-    background-image: url("../img/fondos/clientes.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: 20% 12%;
-}
-#contacto{
-    background-image: url("../img/fondos/contacto.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: 20% 40%;
-}
-.display-5{
-    font-size: 2.5rem;
-    font-weight: 1;
-}
-.fondo{
-    background-image: url("../img/fondos/fondo.png");
-    background-repeat: repeat;
-    background-size: auto;
-}
-.logos-serv{
-    width: 50%;
-}
-.h-90{
-    height: 100%;
-    width: 45%
-}
-.middle{
-    padding-top: 55px;
-}
-.clientes{
-    width: 20%;
-    height: 150px;
-}
-.form-control, .btn-default{
-    border: 1px solid;
-    box-shadow: 3px 4px #888888;
-}
-.title{
-    font-size: 50px;
-}
+/* id's styles */
+    #certificaciones{
+        background-image: url("../img/fondos/certificaciones.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: 0% 50%;
+    }
+    #servicios{
+        background-image: url("../img/fondos/servicio.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: 0% 60%;
+    }
+    #clientes{
+        background-image: url("../img/fondos/clientes.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: 20% 12%;
+    }
+    #contacto{
+        background-image: url("../img/fondos/contacto.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: 20% 40%;
+    }
+    #slide-proc{
+        width: 50%;
+    }
+/* general styles */
+    .blue{
+        background-color: #33357B;
+    }
+    .block-hide{
+        position: absolute;
+        width: 100%;
+        bottom: 100%;
+    }
+    .section{
+        background-color: rgba(18, 155, 91, 0.79);
+    }
+    .display-5{
+        font-size: 2.5rem;
+        font-weight: 1;
+    }
+    .fondo{
+        background-image: url("../img/fondos/fondo.png");
+        background-repeat: repeat;
+        background-size: auto;
+    }
+/* home styles */
+    .slider{
+        height: auto;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .field{
+        background-color: black;
+        opacity: 0.8;
+    }
+    .bottom{
+        bottom: 0%;
+    }
+    .right{
+        right: 0%;
+        top: 0%;
+        height: 100%;
+    }
+    div.carousel-item {
+        padding-top: 100px;
+    }
+/* servicios styles */
+    .logos-serv{
+        width: 50%;
+    }
+/* certificaciones styles */
+    .h-90{
+        height: 100%;
+        width: 45%
+    }
+/* clientes styles */
+    .clientes{
+        width: 20%;
+        height: 150px;
+    }
+/* contacto styles */
+    .form-control, .btn-default{
+        border: 1px solid;
+        box-shadow: 3px 4px #888888;
+    }
+/* footer styles */
+    .footer-right{
+        text-align: right;
+    }
+    .footer-left{
+        text-align: left;
+    }
