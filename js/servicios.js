@@ -8,6 +8,7 @@ $(function() {
                                 '<button type="button" class="close" aria-label="Close">'+
                                     '<span aria-hidden="true">&times;</span>' +
                                 '</button>' +
+                                '<ul><li>La mas esbeltaaaaaaaaa</li></ul>' +
                             '</div>';
                 var htmlParse = $.parseHTML(stringHtml);
                 service.append(htmlParse);
@@ -22,6 +23,11 @@ $(function() {
     $( "#residuos" ).click(
         function() {
             console.log("residuos in");
+        }
+    );
+    $(".logos-serv").hover(
+        function(){
+            $(this).css("cursor", "pointer");
         }
     );
 });
