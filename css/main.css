@@ -72,15 +72,30 @@
 /* servicios styles */
     .logos-serv{
         width: 50%;
+        cursor: pointer;
     }
-    .animation-square{
+    .square-right{
+        right: 0;
+    }
+    .square{
         position: absolute;
         width: 63%;
         top: 0;
-        right: 0;
         height: 100%;
         background-color: white;
         z-index: 2;
+    }
+    .square-left{
+        left: 0;
+    }
+    .img-service{
+        width: 50%;
+        height: 100%;
+        margin-right: 10%;
+    }
+    .cursor:hover {
+        cursor: pointer;
+        text-decoration: underline;
     }
 /* certificaciones styles */
     .h-90{
