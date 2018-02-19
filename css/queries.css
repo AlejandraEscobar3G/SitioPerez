@@ -46,6 +46,9 @@
         width: 30%;
         height: auto;
     }
+    .square-contacto>.h1{
+        font-size: 20px;
+    }
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 440px) and (max-width: 575.98px) {
