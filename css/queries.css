@@ -20,6 +20,9 @@
         width: 100%;
         height: 50%;
     }
+    .logos-serv{
+        width: 80%;
+    }
     .ul-services{
         padding-top: 7%;
         width: 100%;
@@ -28,6 +31,20 @@
     .img-service{
         width: 100%;
         height: 100%;
+    }
+    .font-responsive{
+        font-size: 12px;
+    }
+    .square-left{
+        top: 0;
+    }
+    .residuos-text, .residuos-img {
+        width: 100%;
+        height: 100%;
+    }
+    .residuo-icon{
+        width: 30%;
+        height: auto;
     }
 }
 /* Extra small devices (portrait phones, less than 576px) */
@@ -52,6 +69,9 @@
         width: 100%;
         height: 50%;
     }
+    .logos-serv{
+        width: 60%;
+    }
     .ul-services{
         padding-top: 7%;
         width: 100%;
@@ -60,6 +80,20 @@
     .img-service{
         width: 100%;
         height: 100%;
+    }
+    .font-responsive{
+        font-size: 15px;
+    }
+    .square-left{
+        top: 0;
+    }
+    .residuos-text, .residuos-img {
+        width: 100%;
+        height: 100%;
+    }
+    .residuo-icon{
+        width: 30%;
+        height: auto;
     }
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -74,6 +108,9 @@
         width: 100%;
         height: 50%;
     }
+    .logos-serv{
+        width: 50%;
+    }
     .ul-services{
         padding-top: 7%;
         width: 50%;
@@ -84,6 +121,13 @@
     }
     .cursor {
         margin-left: 10%;
+    }
+    .font-responsive{
+        font-size: 15px;
+    }
+    .residuo-icon{
+        width: 40%;
+        height: auto;
     }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -109,6 +153,13 @@
     .cursor {
         margin-left: 20%;
     }
+    .font-responsive{
+        font-size: 15px;
+    }
+    .residuo-icon{
+        width: 30%;
+        height: auto;
+    }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -127,6 +178,13 @@
     .cursor {
         margin-left: 15%;
     }
+    .font-responsive{
+        font-size: 14px;
+    }
+    .residuo-icon{
+        width: 40%;
+        height: auto;
+    }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -141,5 +199,12 @@
     }
     .cursor {
         margin-left: 20%;
+    }
+    .font-responsive{
+        font-size: 15px;
+    }
+    .residuo-icon{
+        width: 40%;
+        height: auto;
     }
 }

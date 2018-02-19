@@ -97,6 +97,10 @@
         width: 60%;
         height: 100%;
     }
+    .residuos-text, .residuos-img {
+        width: 50%;
+        height: 100%;
+    }
     .cursor:hover {
         cursor: pointer;
         text-decoration: underline;

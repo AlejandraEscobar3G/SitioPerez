@@ -51,17 +51,17 @@ $(function() {
                     '<button type="button" class="close position-absolute float-left" aria-label="Close">' +
                         '<span aria-hidden="true">&times;</span>' +
                     '</button>' +
-                    '<div class="float-right w-50 h-100">' +
+                    '<div class="float-right residuos-text">' +
                         '<div class="h-50 w-100 text-center">' +
-                            '<img class="h-50 w-50" src="img/icons/sct.png"/>' +
-                            '<p class="p-2">Permiso para el transporte terrestre de materiales y residuos peligrosos, emitido por la SCT(No-1512)</p>' +
+                            '<img class="residuo-icon" src="img/icons/sct.png"/>' +
+                            '<p class="p-2 font-responsive">Permiso para el transporte terrestre de materiales y residuos peligrosos, emitido por la SCT(No-1512)</p>' +
                         '</div>' +
                         '<div class="h-50 w-100 text-center">' +
-                            '<img class="h-50 w-50" src="img/icons/semarnat.png"/>' +
-                            '<p class="p-2">Permiso para el transporte terrestre de materiales y residuos peligrosos, emitido por la SCT(No-1512)</p>' +
+                            '<img class="residuo-icon" src="img/icons/semarnat.png"/>' +
+                            '<p class="p-2 font-responsive">Permiso para el transporte de residuos ante la SEMARNAT(DFMARNAT-3200-2017)</p>' +
                         '</div>' +
                     '</div>' +
-                    '<div class="float-left w-50 h-100 text-center">' +
+                    '<div class="float-left residuos-img text-center">' +
                         '<img class="w-75 h-100" src="img/servicios/servicios.jpg"/>' +
                     '</div>' +
                 '</div>';
