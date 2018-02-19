@@ -16,6 +16,19 @@
     .footer-left, .footer-right{
         text-align: center;
     }
+    .square{
+        width: 100%;
+        height: 50%;
+    }
+    .ul-services{
+        padding-top: 7%;
+        width: 100%;
+        text-align: center;
+    }
+    .img-service{
+        width: 100%;
+        height: 100%;
+    }
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 440px) and (max-width: 575.98px) {
@@ -35,6 +48,19 @@
     .footer-left, .footer-right{
         text-align: center;
     }
+    .square{
+        width: 100%;
+        height: 50%;
+    }
+    .ul-services{
+        padding-top: 7%;
+        width: 100%;
+        text-align: center;
+    }
+    .img-service{
+        width: 100%;
+        height: 100%;
+    }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -43,6 +69,21 @@
     }
     #slide-proc, #proccyt-slide{
         width: 70%;
+    }
+    .square{
+        width: 100%;
+        height: 50%;
+    }
+    .ul-services{
+        padding-top: 7%;
+        width: 50%;
+    }
+    .img-service{
+        width: 50%;
+        height: 100%;
+    }
+    .cursor {
+        margin-left: 10%;
     }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -56,6 +97,18 @@
     #proccyt-slide{
         width:70%;
     }
+    .square{
+        width: 100%;
+    }
+    .logos-serv{
+        width: 70%;
+    }
+    .ul-services{
+        padding-top: 5%;
+    }
+    .cursor {
+        margin-left: 20%;
+    }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -68,6 +121,12 @@
     #proccyt-slide{
         width:50%;
     }
+    .logos-serv{
+        width: 60%;
+    }
+    .cursor {
+        margin-left: 15%;
+    }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -79,5 +138,8 @@
     }
     #slide-proc{
         width: 50%;
+    }
+    .cursor {
+        margin-left: 20%;
     }
 }

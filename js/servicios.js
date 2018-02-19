@@ -17,7 +17,6 @@ $(function() {
                             str = `<img src=${imgSource} class="float-right img-service"/>`,
                             parse = $.parseHTML(str);
                             $("#close").append(parse);
-                            console.log(str);
                     }, function(){
                         $(".img-service").remove();
                     }
@@ -31,14 +30,13 @@ $(function() {
         }
     );
     function htmlParser(squareSide){
-        console.log(squareSide);
-        let square = `<div class="square p-4 ${squareSide}" id="close">`;
+        let square = `<div class="square p-2 ${squareSide}" id="close">`;
         if(squareSide == "square-right") {
             square = square +
-                    '<button type="button" class="close" aria-label="Close">' +
+                    '<button type="button" class="close position-absolute" aria-label="Close">' +
                         '<span aria-hidden="true">&times;</span>' +
                     '</button>' +
-                    '<ul class="list-unstyled float-left pt-5">' +
+                    '<ul class="list-unstyled float-left ul-services">' +
                         '<li class="cursor" id="rabon32">√ Rabón de 3/2 toneladas</li>' +
                         '<li class="cursor" id="rabon5">√ Rabón de 5 toneladas</li>' +
                         '<li class="cursor" id="rabon9">√ Rabón de 9 toneladas</li>' +
