@@ -112,8 +112,8 @@
     }
 /* clientes styles */
     .clientes{
-        width: 20%;
-        height: 150px;
+        width: 70%;
+        height: auto;
     }
 /* contacto styles */
     .form-control, .btn-default{
