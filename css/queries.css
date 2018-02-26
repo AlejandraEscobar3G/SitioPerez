@@ -1,5 +1,8 @@
 /* Super small devices (portrait phones, less than 576px) */
 @media (max-width: 439.98px) {
+    .buttons-menu{
+        padding: 1% 5%;
+    }
     #proccyt-slide{
         width: 100px;
         height: 100px;
@@ -11,7 +14,7 @@
         font-size: 25px;
     }
     .title{
-        font-size: 20px;
+        font-size: 1.3rem;
     }
     .footer-left, .footer-right{
         text-align: center;
@@ -52,8 +55,11 @@
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 440px) and (max-width: 575.98px) {
+    .buttons-menu{
+        padding: 1% 5%;
+    }
     .title{
-        font-size: 25px;
+        font-size: 1.5rem;
     }
     .display-5{
         font-size: 30px;
@@ -98,11 +104,14 @@
         width: 30%;
         height: auto;
     }
+    .responsive-with{
+        width: 100% !important;
+    }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     .title{
-        font-size: 30px;
+        font-size: 2rem;
     }
     #slide-proc, #proccyt-slide{
         width: 70%;
@@ -132,11 +141,18 @@
         width: 40%;
         height: auto;
     }
+    .responsive-font{
+        font-size: 0.5rem;
+        padding-top: 0%;
+    }
+    .responsive-with{
+        width: 90% !important;
+    }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .title{
-        font-size: 35px;
+        font-size: 2rem;
     }
     #slide-proc{
         width: 65%;
@@ -163,11 +179,18 @@
         width: 30%;
         height: auto;
     }
+    .responsive-font{
+        font-size: 0.7rem;
+        padding-top: 0%;
+    }
+    .responsive-with{
+        width: 65% !important;
+    }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .title{
-        font-size: 45px;
+        font-size: 2rem;
     }
     #slide-proc{
         width: 50%;
@@ -188,11 +211,18 @@
         width: 40%;
         height: auto;
     }
+    .responsive-font{
+        font-size: 0.85rem;
+        padding-top: 6%;
+    }
+    .responsive-with{
+        width: 50% !important;
+    }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .title{
-        font-size: 50px;
+        font-size: 2rem;
     }
     #proccyt-slide{
         width: 50%;
@@ -209,5 +239,8 @@
     .residuo-icon{
         width: 40%;
         height: auto;
+    }
+    .responsive-with{
+        width: 43% !important;
     }
 }

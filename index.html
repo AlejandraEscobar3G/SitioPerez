@@ -15,26 +15,26 @@
     <!-- menu -->
     <nav class="navbar fixed-top navbar-expand-sm" style="background: linear-gradient(180deg, #ACACAC, white);">
         <a class="pl-3 navbar-brand" href="#">
-            <img src="img/icons/perez.png" width="100" height="80" class="d-inline-block align-top" alt="logo">
+            <img src="img/icons/perez.png" width="110px" height="auto" class="d-inline-block align-top" alt="logo">
         </a>
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item buttons-menu">
                     <a class="nav-link" href="#">Inicio</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item buttons-menu">
                     <a class="nav-link" href="#s-certificaciones">Certificaciones</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item buttons-menu">
                     <a class="nav-link" href="#s-servicios">Servicios</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item buttons-menu">
                     <a class="nav-link" href="#s-clientes">Clientes</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item buttons-menu">
                     <a class="nav-link" href="#s-contacto">Contacto</a>
                 </li>    
             </ul>
@@ -42,13 +42,20 @@
         <a href="#s-contacto" id="presupuesto" class="position-absolute text-light d-none d-lg-block p-2"><small>Solicita tu presupuesto <b>DAR CLICK</b></small></a>
     </nav>
     <!-- slider -->
-    <div class="carousel slide" data-ride="carousel">
+    <div class="carousel slide" data-ride="carousel" id="indicators">
+        <ol class="carousel-indicators">
+            <li data-target="#indicators" data-slide-to="0" class="active"></li>
+            <li data-target="#indicators" data-slide-to="1"></li>
+            <li data-target="#indicators" data-slide-to="2"></li>
+            <li data-target="#indicators" data-slide-to="3"></li>
+            <li data-target="#indicators" data-slide-to="4"></li>
+        </ol>
         <div class="carousel-inner">
-            <div class="carousel-item">
-                <div class="blue p-4 text-light container-fluid">
+            <div class="carousel-item active">
+                <div class="blue text-light container-fluid">
                     <div class="row">
                         <div class="col">
-                            <p class="title p-4">MISIÓN, VISIÓN Y TRAYECTORIA</p>
+                            <p class="title pt-4 pl-4">MISIÓN, VISIÓN Y TRAYECTORIA</p>
                         </div>
                     </div>
                     <div class="row">
@@ -69,14 +76,14 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="blue p-4 text-light container-fluid">
+                <div class="blue text-light container-fluid">
                     <div class="row">
                         <div class="col-12 col-md-5">
-                            <p class="title p-4">RASTREO GPS</p>
+                            <p class="title pt-4 pl-4">RASTREO GPS</p>
                             <p class="text-justify px-4">Rastreo y monitoreo permanente durante todo el trayecto de su carga.</p>
                         </div>
                         <div class="col-12 col-md-7">
-                            <ul class="list-unstyled p-4 text-center">
+                            <ul class="list-unstyled py-4 text-center">
                                 <li>√  Apagado de motor</li>
                                 <li>√  Sensores de movimiento</li>
                                 <li>√  Cuenta espejo</li>
@@ -88,22 +95,22 @@
                 <img class="d-block img-fluid" src="img/inicio/gps.jpg" alt="2 slide">
             </div>
             <div class="carousel-item">
-                <div class="blue p-4 text-light container-fluid">
+                <div class="blue text-light container-fluid">
                     <div class="row">
                         <div class="col">
-                            <p class="title p-4">AUTOPROTECCIÓN</p>
+                            <p class="title pt-4 pl-4">AUTOPROTECCIÓN</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <p class="text-justify px-4">Nuestros operadores están capacitados para cualquier situación de derrame o fuga durante su trayecto. Para eso cuentan con todas las medidas de contención como lo son: </p>
+                            <p class="text-justify px-4">Nuestros operadores están capacitados para cualquier situación de derrame o fuga durante su trayecto. Para eso cuentan con todas las medidas de contención como lo son </p>
                         </div>
                     </div>
                 </div>
                 <div class="position-relative">
                     <img class="d-block img-fluid" src="img/inicio/autoproteccion.jpg" alt="3 slide">
-                    <div class="position-absolute field right d-none d-lg-block p-5 text-light">
-                        <ul class="list-unstyled py-5 px-3">
+                    <div class="position-absolute field right d-none d-lg-block text-light">
+                        <ul class="list-unstyled px-5 py-5 responsive-font">
                             <li>√ Material absorbente de 50 kg.</li>
                             <li>√ Contenedor, bolsas transparentes.</li>
                             <li>√ Depósito para contención de derrames.</li>
@@ -123,10 +130,10 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="blue p-4 text-light container-fluid">
+                <div class="blue text-light container-fluid">
                     <div class="row">
                         <div class="col">
-                            <p class="title p-4">EVALUACIÓN DE RIESGOS</p>
+                            <p class="title pt-4 pl-4">EVALUACIÓN DE RIESGOS</p>
                         </div>
                     </div>
                     <div class="row">
@@ -137,8 +144,8 @@
                 </div>
                 <div class="position-relative">
                     <img class="d-block w-100 slider" src="img/inicio/riesgos.jpg" alt="4 slide">
-                    <div class="position-absolute field right d-block p-5 text-light">
-                        <ul class="list-unstyled py-5 px-3">
+                    <div class="position-absolute field d-none d-md-block right p-5 text-light">
+                        <ul class="list-unstyled px-3 responsive-font">
                             <li>√ Uniforme distintivo.</li>
                             <li>√ Casco.</li>
                             <li>√ Lentes de seguridad.</li>
@@ -154,11 +161,11 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item active">
-                <div class="blue p-4 text-light container-fluid">
+            <div class="carousel-item">
+                <div class="blue text-light container-fluid">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <p class="title p-4">MIEMBROS PROCCYT</p>
+                            <p class="title pt-4 pl-4">MIEMBROS PROCCYT</p>
                             <p class="text-justify px-4">Reconocimiento por parte de PROCCYT por alcanzar los más altos estándares de calidad en transportación, noviembre 2004.</p>
                         </div>
                     </div>
@@ -166,7 +173,7 @@
                 <div class="container-fluid">   
                     <div class="row">
                         <div class="col-6 col-lg-7">
-                            <img class="d-block float-right slider" id="slide-proc" src="img/inicio/proccyt.png" alt="5 slide">
+                            <img class="d-block float-right slider responsive-with" id="slide-proc" src="img/inicio/proccyt.png" alt="5 slide">
                         </div>
                         <div class="col-6 col-lg-5 align-self-center">
                             <img class="d-block mx-auto slider" id="proccyt-slide" src="img/inicio/logo_proccyt.png" alt="proccyt">
