@@ -1,27 +1,21 @@
 /* id's styles */
     #certificaciones{
         background-image: url("../img/fondos/certificaciones.jpg");
+    }
+    .attachment{
         background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-position: 0% 50%;
+        background-size: 100% 100%;
+        background-position: 0% 100% !important;
+        background-attachment: fixed;
     }
     #servicios{
         background-image: url("../img/fondos/servicio.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-position: 0% 60%;
     }
     #clientes{
         background-image: url("../img/fondos/clientes.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-position: 20% 12%;
     }
     #contacto{
         background-image: url("../img/fondos/contacto.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-position: 20% 40%;
     }
     #slide-proc{
         width: 50%;

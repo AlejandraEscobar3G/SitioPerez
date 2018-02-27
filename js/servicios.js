@@ -13,7 +13,7 @@ $(function() {
                 service.append(htmlParse);
                 $(".cursor").hover(
                     function(){
-                        let imgSource = "img/servicios/"+this.id+".jpg",
+                        let imgSource = "img/servicios/"+this.id+".png",
                             str = `<img src=${imgSource} class="float-right img-service"/>`,
                             parse = $.parseHTML(str);
                             $("#close").append(parse);
@@ -37,7 +37,7 @@ $(function() {
                         '<span aria-hidden="true">&times;</span>' +
                     '</button>' +
                     '<ul class="list-unstyled float-left ul-services">' +
-                        '<li class="cursor" id="rabon32">√ Rabón de 3/2 toneladas</li>' +
+                        '<li class="cursor" id="rabon35">√ Rabón de 3/2 toneladas</li>' +
                         '<li class="cursor" id="rabon5">√ Rabón de 5 toneladas</li>' +
                         '<li class="cursor" id="rabon9">√ Rabón de 9 toneladas</li>' +
                         '<li class="cursor" id="trailer">√ Tráiler</li>' +
