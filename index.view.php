@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="position-relative">
-                    <img class="d-block img-fluid" src="img/inicio/equipo.jpg" alt="1 slide">
+                    <img class="d-block img-fluid" src="img/inicio/gps.jpg" alt="1 slide">
                     <div class="position-absolute field bottom d-none d-md-block">
                         <p class="w-50 d-block float-left text-light py-4 px-5 text-justify">Buscamos la excelencia y la rentabilidad mediante los niveles óptimos de competitividad, servicio, calidad, seguridad y protección al medio ambiente.</p>
                         <p class="w-50 d-block float-left text-light py-4 px-5 text-justify">Reconocemos el valor de nuestro personal fomentando su constante superación para contar con recursos humanos calificados y comprometidos.</p>
@@ -92,7 +92,8 @@
                         </div>
                     </div>
                 </div>
-                <img class="d-block img-fluid" src="img/inicio/gps.jpg" alt="2 slide">
+                
+                <img class="d-block img-fluid" src="img/inicio/equipo.jpg" alt="2 slide">
             </div>
             <div class="carousel-item">
                 <div class="blue text-light container-fluid">
@@ -336,45 +337,53 @@
         </div>
         <div class="row no-gutters">
             <div class="col-12 col-md-6">
-                <form class="p-4" enctype="text/plain" method="post" action="mailto:webdesign@aboutguide.com">
+                <form class="p-4" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
                     <div class="form-group">
                         <label for="name">NOMBRE</label>
-                        <input type="text" class="form-control" id="name" placeholder="Nombre completo">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Nombre completo" value="<?php if(!$enviado && isset($name)) echo $name ?>">
                     </div>
                     <div class="form-group">
                         <label for="email">CORREO ELECTRÓNICO</label>
-                        <input type="email" class="form-control" id="email" placeholder="correo@example.com">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="correo@example.com" value="<?php if(!$enviado && isset($email)) echo $email ?>">
                     </div>
                     <div class="form-group">
                         <label for="asunto">ASUNTO</label>
-                        <select class="custom-select form-control" id="exampleFormControlSelect1">
-                            <option selected>Open this select menu</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                        <select class="custom-select form-control" name="options" id="options">
+                            <option value="" selected>Open this select menu</option>
+                            <option value="Facturacion">Facturación</option>
+                            <option value="Calidad">Calidad</option>
+                            <option value="Servicios">Servicios</option>
+                            <option value="Logistica">Logística</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="message">MENSAJE</label>
-                        <textarea class="form-control" id="message" rows="3" placeholder="¿Cómo le podemos ayudar?"></textarea>
+                        <textarea name="message" class="form-control" id="message" rows="3" placeholder="¿Cómo le podemos ayudar?" value="<?php if(!$enviado && isset($msg)) echo $msg ?>"></textarea>
                     </div>
+                    <?php if(!empty($errores)): ?>
+                        <div class="alert error">
+                            <?php echo $errores; ?>
+                        </div>
+                    <?php elseif($enviado): ?>
+                        <div class="alert success">
+                            <p>Enviado correctamente</p>
+                        </div>
+                    <?php endif?>
                     <br>
-                    <button type="submit" id="submit" class="btn btn-default">Enviar</button>
+                    <button type="submit" name="submit" id="submit" class="btn btn-default">Enviar</button>
                 </form>
             </div>
             <div class="col-12 col-md-6 p-3 position-relative" id="contact">
                 <div class="row">
                     <div class="col">
-                        <p class="p-2"><b>DIRECCIÓN</b><br>Av. Juárez No. 17, Centro, Tequixquiac, C.P. 55650, Estado de México</p>
+                        <p class="p-2 text-justify"><b>DIRECCIÓN</b><br>Av. Juárez No. 17, Centro, Tequixquiac, C.P. 55650, Estado de México</p>
                         <br>
                         <p class="p-2"><b>TELÉFONOS</b> <br>(01 59) 19 12 08 03 <br>(01 59) 19 12 11 33</p>
                     </div>
                     <div class="col">
-                        <p class="p-2"><b>HORARIOS</b> <br>De lunes a viernes de XX:00 a XX:00 horas</p>
+                        <p class="p-2 text-justify"><b>HORARIOS</b> <br>De lunes a viernes de 09:00 a 06:30pm y los sábados de 09:00-1:00pm</p>
                         <br>
-                        <p class="p-2"><b>EMAIL</b> <br>servicios@corporativoperez.com</p>
+                        <p class="p-2 text-justify"><b>EMAIL</b> <br>servicios@corporativoperez.com</p>
                     </div>
                 </div>
                 <div class="row">
