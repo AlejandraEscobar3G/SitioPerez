@@ -53,22 +53,24 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="blue text-light container-fluid">
-                    <div class="row">
+                    <div class="row" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         <div class="col">
                             <p class="title pt-4 pl-4">MISIÓN, VISIÓN Y TRAYECTORIA</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <p class="text-justify px-4">Tenemos 50 años de experiencia en el transporte terrestre; hemos crecido a la par de las regulaciones para el traslado de materiales y residuos peligrosos.</p>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <p class="text-justify px-4">Anticipamos las necesidades del cliente y del mercado excediendo los estándares requeridos a través de la inversión, creatividad e innovación.</p>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <p class="text-justify px-4">Tenemos 50 años de experiencia en el transporte terrestre; hemos crecido a la par de las regulaciones para el traslado de materiales y residuos peligrosos.</p>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <p class="text-justify px-4">Anticipamos las necesidades del cliente y del mercado excediendo los estándares requeridos a través de la inversión, creatividad e innovación.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="position-relative">
-                    <img class="d-block img-fluid" src="img/inicio/gps.jpg" alt="1 slide">
+                    <img class="d-block slider" src="img/inicio/gps.jpg" alt="1 slide">
                     <div class="position-absolute field bottom d-none d-md-block">
                         <p class="w-50 d-block float-left text-light py-4 px-5 text-justify">Buscamos la excelencia y la rentabilidad mediante los niveles óptimos de competitividad, servicio, calidad, seguridad y protección al medio ambiente.</p>
                         <p class="w-50 d-block float-left text-light py-4 px-5 text-justify">Reconocemos el valor de nuestro personal fomentando su constante superación para contar con recursos humanos calificados y comprometidos.</p>
@@ -77,39 +79,47 @@
             </div>
             <div class="carousel-item">
                 <div class="blue text-light container-fluid">
-                    <div class="row">
-                        <div class="col-12 col-md-5">
+                    <div class="row" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="col">
                             <p class="title pt-4 pl-4">RASTREO GPS</p>
-                            <p class="text-justify px-4">Rastreo y monitoreo permanente durante todo el trayecto de su carga.</p>
                         </div>
-                        <div class="col-12 col-md-7">
-                            <ul class="list-unstyled py-4 text-center">
-                                <li>√  Apagado de motor</li>
-                                <li>√  Sensores de movimiento</li>
-                                <li>√  Cuenta espejo</li>
-                                <li>√  Comunicación con operadores</li>
-                            </ul>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                        <div class="row">
+                            <div class="col-12 col-md-5">
+                                <p class="text-justify px-4">Rastreo y monitoreo permanente durante todo el trayecto de su carga.</p>
+                            </div>
+                            <div class="col-12 col-md-7">
+                                <ul class="list-unstyled py-4 text-center pt-4">
+                                    <li>√  Apagado de motor</li>
+                                    <li>√  Sensores de movimiento</li>
+                                    <li>√  Cuenta espejo</li>
+                                    <li>√  Comunicación con operadores</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <img class="d-block img-fluid" src="img/inicio/equipo.jpg" alt="2 slide">
+                <img class="d-block slider" src="img/inicio/equipo.jpg" alt="2 slide">
             </div>
             <div class="carousel-item">
                 <div class="blue text-light container-fluid">
-                    <div class="row">
+                    <div class="row" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <div class="col">
                             <p class="title pt-4 pl-4">AUTOPROTECCIÓN</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <p class="text-justify px-4">Nuestros operadores están capacitados para cualquier situación de derrame o fuga durante su trayecto. Para eso cuentan con todas las medidas de contención como lo son </p>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <p class="text-justify px-4">Nuestros operadores están capacitados para cualquier situación de derrame o fuga durante su trayecto. Para eso cuentan con todas las medidas de contención como lo son </p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="position-relative">
-                    <img class="d-block img-fluid" src="img/inicio/autoproteccion.jpg" alt="3 slide">
+                    <img class="d-block slider" src="img/inicio/autoproteccion.jpg" alt="3 slide">
                     <div class="position-absolute field right d-none d-lg-block text-light">
                         <ul class="list-unstyled px-5 py-5 responsive-font">
                             <li>√ Material absorbente de 50 kg.</li>
@@ -132,14 +142,16 @@
             </div>
             <div class="carousel-item">
                 <div class="blue text-light container-fluid">
-                    <div class="row">
+                    <div class="row" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         <div class="col">
                             <p class="title pt-4 pl-4">EVALUACIÓN DE RIESGOS</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-12 col-lg-7">
-                            <p class="text-justify px-4">Capacidad, experiencia y equipo necesarios para transportar de forma segura y eficiente productos químicos, agroquímicos y materiales peligrosos en vehículos terrestres. Equipo de seguridad especializado como lo es: </p>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
+                        <div class="row">
+                            <div class="col-12 col-lg-7">
+                                <p class="text-justify px-4">Capacidad, experiencia y equipo necesarios para transportar de forma segura y eficiente productos químicos, agroquímicos y materiales peligrosos en vehículos terrestres. Equipo de seguridad especializado como lo es: </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -164,10 +176,16 @@
             </div>
             <div class="carousel-item">
                 <div class="blue text-light container-fluid">
-                    <div class="row">
+                    <div class="row" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         <div class="col-12 col-lg-6">
                             <p class="title pt-4 pl-4">MIEMBROS PROCCYT</p>
+                        </div>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive">
+                        <div class="row">
+                            <div class="col-12 col-lg-7">
                             <p class="text-justify px-4">Reconocimiento por parte de PROCCYT por alcanzar los más altos estándares de calidad en transportación, noviembre 2004.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -177,7 +195,7 @@
                             <img class="d-block float-right slider responsive-with" id="slide-proc" src="img/inicio/proccyt.png" alt="5 slide">
                         </div>
                         <div class="col-6 col-lg-5 align-self-center">
-                            <img class="d-block mx-auto slider" id="proccyt-slide" src="img/inicio/logo_proccyt.png" alt="proccyt">
+                            <img class="d-block mx-auto" id="proccyt-slide" src="img/inicio/logo_proccyt.png" alt="proccyt">
                         </div>
                     </div>
                 </div>
@@ -282,7 +300,7 @@
         </div>
         <div class="row no-gutters p-5 justify-content-center">
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
-                <img class="clientes d-block mx-auto" src="img/clientes/dawn.png" alt="dawn">
+                <img class="clientes d-block mx-auto" src="img/clientes/dow.png" alt="dow">
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
                 <img class="clientes d-block mx-auto" src="img/clientes/dupont.png" alt="dupont">
@@ -304,7 +322,7 @@
                 <img class="clientes d-block mx-auto" src="img/clientes/comex.png" alt="comex">
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
-                <img class="clientes d-block mx-auto" src="img/clientes/novartis.png" alt="novartis">
+                <img class="clientes d-block mx-auto" src="img/clientes/agricultura.jpg" alt="agricultura">
             </div>
             <div class="w-100 d-none d-md-block"></div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
@@ -317,7 +335,7 @@
                 <img class="clientes d-block mx-auto" src="img/clientes/syngenta.png" alt="syngenta">
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 align-self-center p-4">
-                <img class="clientes d-block mx-auto" src="img/clientes/unifoods.png" alt="unifoods">
+                <img class="clientes d-block mx-auto" src="img/clientes/chedraui.png" alt="chedraui">
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 align-self-center p-4">
                 <img class="clientes d-block mx-auto" src="img/clientes/walmart.png" alt="walmart">
