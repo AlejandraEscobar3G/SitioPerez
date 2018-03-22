@@ -100,8 +100,7 @@
                         </div>
                     </div>
                 </div>
-                
-                <img class="d-block slider" src="img/inicio/equipo.jpg" alt="2 slide">
+                <img class="d-block slider" src="img/inicio/gps.jpg" alt="2 slide">
             </div>
             <div class="carousel-item">
                 <div class="blue text-light container-fluid">
@@ -192,7 +191,7 @@
                 <div class="container-fluid">   
                     <div class="row">
                         <div class="col-6 col-lg-7">
-                            <img class="d-block float-right slider responsive-with" id="slide-proc" src="img/inicio/proccyt.png" alt="5 slide">
+                            <img class="d-block w-100 slider" id="slide-proc" src="img/inicio/tolva_roja.png" alt="5 slide">
                         </div>
                         <div class="col-6 col-lg-5 align-self-center">
                             <img class="d-block mx-auto" id="proccyt-slide" src="img/inicio/logo_proccyt.png" alt="proccyt">
