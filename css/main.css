@@ -64,8 +64,16 @@
         top: 0%;
         height: 100%;
     }
+    .left{
+        left: 0%;
+        top: 0%;
+        height: 100%;
+    }
     div.carousel-item {
         padding-top: 100px;
+    }
+    .width-side{
+        width: 40%;
     }
 /* servicios styles */
     .logos-serv{
