@@ -355,19 +355,19 @@
         </div>
         <div class="row no-gutters">
             <div class="col-12 col-md-6">
-                <form class="p-4" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
+                <form class="p-4" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>#s-contacto">
                     <div class="form-group">
                         <label for="name">NOMBRE</label>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Nombre completo" value="<?php if(!$enviado && isset($name)) echo $name ?>">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Nombre completo" value="<?php if(!$enviado && isset($name)) echo $name ?>" required>
                     </div>
                     <div class="form-group">
                         <label for="email">CORREO ELECTRÓNICO</label>
-                        <input type="email" class="form-control" name="email" id="email" placeholder="correo@example.com" value="<?php if(!$enviado && isset($email)) echo $email ?>">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="correo@example.com" value="<?php if(!$enviado && isset($email)) echo $email ?>" required>
                     </div>
                     <div class="form-group">
                         <label for="asunto">ASUNTO</label>
-                        <select class="custom-select form-control" name="options" id="options">
-                            <option value="" selected>Open this select menu</option>
+                        <select class="custom-select form-control" name="options" id="options" required>
+                            <option value="" selected>Asunto</option>
                             <option value="Facturacion">Facturación</option>
                             <option value="Calidad">Calidad</option>
                             <option value="Servicios">Servicios</option>
@@ -376,17 +376,8 @@
                     </div>
                     <div class="form-group">
                         <label for="message">MENSAJE</label>
-                        <textarea name="message" class="form-control" id="message" rows="3" placeholder="¿Cómo le podemos ayudar?" value="<?php if(!$enviado && isset($msg)) echo $msg ?>"></textarea>
+                        <textarea name="message" class="form-control" id="message" rows="3" placeholder="¿Cómo le podemos ayudar?" value="<?php if(!$enviado && isset($msg)) echo $msg ?>" required></textarea>
                     </div>
-                    <?php if(!empty($errores)): ?>
-                        <div class="alert error">
-                            <?php echo $errores; ?>
-                        </div>
-                    <?php elseif($enviado): ?>
-                        <div class="alert success">
-                            <p>Enviado correctamente</p>
-                        </div>
-                    <?php endif?>
                     <br>
                     <button type="submit" name="submit" id="submit" class="btn btn-default">Enviar</button>
                 </form>
@@ -411,6 +402,12 @@
                         </div>
                     </div>
                 </div>
+                <?php if((empty($errores)) && ($enviado==1)): ?>
+                    <div class="position-absolute square-contacto">
+                        <p class="h1 text-justify p-5 text-secondary"><i>Gracias por su mensaje, <br> en breve nuestros ejecutivos se pondrán en contacto con usted.</i></p>
+                        <button type="button" id="aceptar" class="btn btn-light d-block mx-auto btn-lg">Aceptar</button>
+                    </div>
+                <?php endif ?>
             </div>
         </div>
     </div>
