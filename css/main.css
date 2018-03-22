@@ -113,8 +113,8 @@
     }
 /* certificaciones styles */
     .h-90{
-        height: 100%;
-        width: 45%
+        height: auto;
+        width: 65%;
     }
 /* clientes styles */
     .clientes{

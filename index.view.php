@@ -183,56 +183,59 @@
         <div class="row no-gutters">
             <p class="col text-center p-5 mb-0">Se cumple con todas las disposiciones referentes a la reglamentación para el transporte terrestre de materiales y residuos peligrosos, de acuerdo al reglamento emitido por la SCT, y las normas oficiales correspondientes</p>
         </div>
-        <div class="row no-gutters py-2">
+        <div class="row no-gutters align-items-end">
+            <div class="col-sm-2"></div>
             <div class="col-12 col-sm-4">
-                <img class="h-90 d-block mx-auto" src="img/certificaciones/aniq.png" alt="aniq">
-            </div>
-            <div class="col-sm-4">
-                <img class="mx-auto d-block h-90" src="img/certificaciones/neec.png" alt="neec">
+                <img class="h-90 d-block float-right" src="img/certificaciones/aniq.png" alt="aniq">
             </div>
             <div class="col-12 col-sm-4">
-                <img class="h-90 d-block mx-auto" src="img/certificaciones/setiq.png" alt="setiq">
+                <img class="h-90 d-block float-left" src="img/certificaciones/integral.png" alt="integral">
             </div>
+            <div class="col-sm-2"></div>
         </div>
-        <div class="row no-gutters">
-            <div class="d-none d-sm-block col-sm-2 col-md-3"></div>
-            <div class="col-12 col-sm-8 col-md-6 blue text-center py-5">
+        <div class="row no-gutters align-items-center">
+            <div class="d-none d-sm-block col-sm-2 col-md-4 p-3 ">
+                <img class="h-90 d-block float-right" src="img/certificaciones/oea.png" alt="recurso">
+            </div>
+            <div class="col-12 col-sm-8 col-md-4 blue text-center p-3">
                 <p class="text-light">Miembros del SETIQ ANIQ desde 2009</p>
                 <p class="text-light">Certificación SARI Julio 2013</p>
                 <p class="text-light">Certificado RCMX-009113-0613</p>
                 <p class="text-light">Certificado NEEC 2017 (En proceso)</p>
                 <p class="text-light">Certificación en "Responsabilidad integral" RCMX009113-0613</p>
             </div>
-            <div class="d-none d-sm-block col-sm-2 col-md-3"></div>
+            <div class="d-none d-sm-block col-sm-2 col-md-4">
+                <img class="h-90 d-block float-left" src="img/certificaciones/setiq.png" alt="setiq">
+            </div>
         </div>
-        <div class="row no-gutters py-2">
+        <div class="row no-gutters align-items-start">
+            <div class="col-sm-2"></div>
             <div class="col-12 col-sm-4">
-                <img class="h-90 d-block mx-auto" src="img/certificaciones/recurso.jpg" alt="recurso">
-            </div>
-             <div class="col-12 col-sm-4">
-                <img class="h-90 d-block mx-auto" src="img/certificaciones/integral.png" alt="integral">
+                <img class="float-right d-block h-90" src="img/certificaciones/neec.png" alt="neec">
             </div>
             <div class="col-12 col-sm-4">
-                <img class="h-90 d-block mx-auto" src="img/certificaciones/oea.png" alt="recurso">
+                <img class="h-90 d-block float-left" src="img/certificaciones/recurso.jpg" alt="recurso">
             </div>
+            <div class="col-sm-2"></div>
         </div>
-        <div class="row no-gutters">
-            <div class="col-12">
-                <p class="text-center display-4 pt-5 mb-0">PERMISOS</p>
-            </div>
-        </div>
-        <div class="row no-gutters">
-            <div class="col-12 col-md-6">
-                <img class="mx-auto d-block w-50" src="img/icons/sct.png" alt="sct">
-                <div class="p-5 text-left">
+        <div class="row no-gutters pt-5">
+            <div class="col-12 col-md-4">
+                <div class="p-4 text-left text-light blue text-center h-100">
+                    <p class="text-center display-5">PERMISOS</p>
                     <p class="p-2">Permiso para el transporte terrestre de materiales y residuos peligrosos, emitido por la SCT (No-1512)</p>
                     <p class="p-2">Permiso para el transporte de residuos ante la SEMARNAT (DFMARNAT-3200-2017)</p>
                     <p class="p-2">Licencias tipo "E" de conductores de camión. Afiliación al seguro social a operadores.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
-                <img class="mx-auto d-block w-50" src="img/icons/semarnat.png" alt="semarnat">
-                <div class="p-5 text-right">
+            <div class="col-md-2 align-self-center">
+                <img class="mx-auto d-block img-fluid" src="img/icons/sct.png" alt="sct">
+            </div>
+            <div class="col-md-2 align-self-center">
+                <img class="mx-auto d-block img-fluid" src="img/icons/semarnat.png" alt="semarnat">
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="p-4 text-light blue text-center h-100">
+                    <p class="text-center display-5">IDENTIFICACIÓN</p>
                     <p class="p-2">Autorización para la recolección y transporte de residuos peligrosos. (15-096-PS-I-54-2003)</p>
                     <p class="p-2">Tarjeta de circulación especificada para el transporte de materiales y residuos peligrosos.</p>
                     <p class="p-2">IDENTIFICACIÓN <br>Portarrombos <br>Datos de teléfono de emergencia <br>Guía norteamericana de respuesta a emergencias</p>
