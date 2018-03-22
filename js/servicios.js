@@ -1,26 +1,15 @@
 $(function() {
     var toggle = 0;
     $( ".logos-serv" ).click(
-        function() {
+        function(){
             if(toggle == 0) {
                 const service = $("#services");
-                let htmlParse;
                 if(this.id == "transporte") {
-                    htmlParse = htmlParser("square-right");
+                    htmlParse = htmlParser(this.id);
                 } else if(this.id == "residuos") {
-                    htmlParse = htmlParser("square-left");
+                    htmlParse = htmlParser(this.id);
                 }
                 service.append(htmlParse);
-                $(".cursor").hover(
-                    function(){
-                        let imgSource = "img/servicios/"+this.id+".png",
-                            str = `<img src=${imgSource} class="float-right img-service"/>`,
-                            parse = $.parseHTML(str);
-                            $("#close").append(parse);
-                    }, function(){
-                        $(".img-service").remove();
-                    }
-                );
                 toggle = 1;
             }
             $(".close").click(function() {
@@ -29,24 +18,68 @@ $(function() {
             });
         }
     );
-    function htmlParser(squareSide){
-        let square = `<div class="square p-2 ${squareSide}" id="close">`;
-        if(squareSide == "square-right") {
+    function htmlParser(icon){
+        let square = `<div class="square p-2 ${icon}" id="close">`;
+        if(icon == "transporte") {
             square = square +
                     '<button type="button" class="close position-absolute" aria-label="Close">' +
                         '<span aria-hidden="true">&times;</span>' +
                     '</button>' +
-                    '<ul class="list-unstyled float-left ul-services">' +
-                        '<li class="cursor" id="camioneta35">√ Camioneta de 3 1/2 toneladas</li>' +
-                        '<li class="cursor" id="torton5">√ Tortón de 5 toneladas</li>' +
-                        '<li class="cursor" id="torton9">√ Tortón de 9 toneladas</li>' +
-                        '<li class="cursor" id="trailer">√ Tráiler</li>' +
-                        '<li class="cursor" id="termos">√ Tráiler con Termos</li>' +
-                        '<li class="cursor" id="tolva">√ Tolva</li>' +
-                        '<li class="cursor" id="portacontenedor">√ Portacontenedores</li>' +
-                    '</ul>' +
+                    '<div class="container">' +
+                        '<div class="row">' +
+                            '<div class="col">' +
+                                '<div>' +
+                                    '<img src="img/servicios/camioneta35.png" class="img-thumbnail" alt="camioneta35">' +
+                                    '<p>Camioneta de 3 1/2 toneladas</p>' +
+                                '</div>' +
+                            '</div>' +
+                            '<div class="col">' +
+                                '<div>' +
+                                    '<img src="img/servicios/torton5.png" class="img-thumbnail" alt="torton5">' +
+                                    '<p>Tortón de 5 toneladas</p>' +
+                                '</div>' +
+                            '</div>' +
+                            '<div class="col">' +
+                                '<div>' +
+                                    '<img src="img/servicios/torton9.png" class="img-thumbnail" alt="torton9">' +
+                                    '<p>Tortón de 9 toneladas</p>' +
+                                '</div>' +
+                            '</div>' +
+                            '<div class="col">' +
+                                '<div>' +
+                                    '<img src="img/servicios/trailer.png" class="img-thumbnail" alt="trailer">' +
+                                    '<p>Tráiler</p>' +
+                                '</div>' +
+                            '</div>' +
+                            '<div class="w-100"></div>' +
+                            '<div class="col">' +
+                                '<div>' +
+                                    '<img src="img/servicios/termos.png" class="img-thumbnail" alt="termos">' +
+                                    '<p>Tráiler con Termos</p>' +
+                                '</div>' +
+                            '</div>' +
+                            '<div class="col">' +
+                                '<div>' +
+                                    '<img src="img/servicios/tolva.png" class="img-thumbnail" alt="tolva">' +
+                                    '<p>Tolva</p>' +
+                                '</div>' +
+                            '</div>' +
+                            '<div class="col">' +
+                                '<div>' +
+                                    '<img src="img/servicios/portacontenedor.png" class="img-thumbnail" alt="portacontenedor">' +
+                                    '<p>Portacontenedores</p>' +
+                                '</div>' +
+                            '</div>' +
+                            '<div class="col">' +
+                                '<div>' +
+                                    '<img src="img/servicios/cajaseca.png" class="img-thumbnail" alt="cajaseca">' +
+                                    '<p>Tráiler de caja seca</p>' +
+                                '</div>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>' +
                 '</div>'
-        } else if(squareSide == "square-left") {
+        } else if(icon == "residuos") {
             square = square + 
                     '<button type="button" class="close position-absolute float-left" aria-label="Close">' +
                         '<span aria-hidden="true">&times;</span>' +
