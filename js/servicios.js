@@ -37,11 +37,11 @@ $(function() {
                         '<span aria-hidden="true">&times;</span>' +
                     '</button>' +
                     '<ul class="list-unstyled float-left ul-services">' +
-                        '<li class="cursor" id="rabon35">√ Rabón de 3/2 toneladas</li>' +
-                        '<li class="cursor" id="rabon5">√ Rabón de 5 toneladas</li>' +
-                        '<li class="cursor" id="rabon9">√ Rabón de 9 toneladas</li>' +
+                        '<li class="cursor" id="camioneta35">√ Camioneta de 3 1/2 toneladas</li>' +
+                        '<li class="cursor" id="torton5">√ Tortón de 5 toneladas</li>' +
+                        '<li class="cursor" id="torton9">√ Tortón de 9 toneladas</li>' +
                         '<li class="cursor" id="trailer">√ Tráiler</li>' +
-                        '<li class="cursor" id="torton">√ Tortón</li>' +
+                        '<li class="cursor" id="termos">√ Tráiler con Termos</li>' +
                         '<li class="cursor" id="tolva">√ Tolva</li>' +
                         '<li class="cursor" id="portacontenedor">√ Portacontenedores</li>' +
                     '</ul>' +

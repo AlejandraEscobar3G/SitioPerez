@@ -43,7 +43,7 @@
     }
 /* home styles */
     .slider{
-        height: auto;
+        height: 520px !important;
     }
     .title{
         font-size: 2rem;
