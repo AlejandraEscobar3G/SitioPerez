@@ -19,61 +19,61 @@ $(function() {
         }
     );
     function htmlParser(icon){
-        let square = `<div class="square p-2 ${icon}" id="close">`;
+        let square = `<div class="square pt-3 pl-3 ${icon}" id="close">`;
         if(icon == "transporte") {
             square = square +
                     '<button type="button" class="close position-absolute" aria-label="Close">' +
                         '<span aria-hidden="true">&times;</span>' +
                     '</button>' +
-                    '<div class="container">' +
+                    '<div class="container pt-4">' +
                         '<div class="row">' +
                             '<div class="col">' +
-                                '<div>' +
+                                '<div class="img-thumbnail h-100">' +
                                     '<img src="img/servicios/camioneta35.png" class="img-thumbnail" alt="camioneta35">' +
-                                    '<p>Camioneta de 3 1/2 toneladas</p>' +
+                                    '<p class="text-center">Camioneta de 3 1/2 toneladas</p>' +
                                 '</div>' +
                             '</div>' +
                             '<div class="col">' +
-                                '<div>' +
+                                '<div class="img-thumbnail h-100">' +
                                     '<img src="img/servicios/torton5.png" class="img-thumbnail" alt="torton5">' +
-                                    '<p>Tortón de 5 toneladas</p>' +
+                                    '<p class="text-center">Tortón de 5 toneladas</p>' +
                                 '</div>' +
                             '</div>' +
                             '<div class="col">' +
-                                '<div>' +
+                                '<div class="img-thumbnail h-100">' +
                                     '<img src="img/servicios/torton9.png" class="img-thumbnail" alt="torton9">' +
-                                    '<p>Tortón de 9 toneladas</p>' +
+                                    '<p class="text-center">Tortón de 9 toneladas</p>' +
                                 '</div>' +
                             '</div>' +
                             '<div class="col">' +
-                                '<div>' +
+                                '<div class="img-thumbnail h-100">' +
                                     '<img src="img/servicios/trailer.png" class="img-thumbnail" alt="trailer">' +
-                                    '<p>Tráiler</p>' +
+                                    '<p class="text-center">Tráiler</p>' +
                                 '</div>' +
                             '</div>' +
-                            '<div class="w-100"></div>' +
+                            '<div class="w-100 p-2"></div>' +
                             '<div class="col">' +
-                                '<div>' +
+                                '<div class="img-thumbnail h-100">' +
                                     '<img src="img/servicios/termos.png" class="img-thumbnail" alt="termos">' +
-                                    '<p>Tráiler con Termos</p>' +
+                                    '<p class="text-center">Tráiler con Termos</p>' +
                                 '</div>' +
                             '</div>' +
                             '<div class="col">' +
-                                '<div>' +
+                                '<div class="img-thumbnail h-100">' +
                                     '<img src="img/servicios/tolva.png" class="img-thumbnail" alt="tolva">' +
-                                    '<p>Tolva</p>' +
+                                    '<p class="text-center">Tolva</p>' +
                                 '</div>' +
                             '</div>' +
                             '<div class="col">' +
-                                '<div>' +
+                                '<div class="img-thumbnail h-100">' +
                                     '<img src="img/servicios/portacontenedor.png" class="img-thumbnail" alt="portacontenedor">' +
-                                    '<p>Portacontenedores</p>' +
+                                    '<p class="text-center">Portacontenedores</p>' +
                                 '</div>' +
                             '</div>' +
                             '<div class="col">' +
-                                '<div>' +
+                                '<div class="img-thumbnail h-100">' +
                                     '<img src="img/servicios/cajaseca.png" class="img-thumbnail" alt="cajaseca">' +
-                                    '<p>Tráiler de caja seca</p>' +
+                                    '<p class="text-center">Tráiler de caja seca</p>' +
                                 '</div>' +
                             '</div>' +
                         '</div>' +
@@ -81,7 +81,7 @@ $(function() {
                 '</div>'
         } else if(icon == "residuos") {
             square = square + 
-                    '<button type="button" class="close position-absolute float-left" aria-label="Close">' +
+                    '<button type="button" class="close position-absolute" aria-label="Close">' +
                         '<span aria-hidden="true">&times;</span>' +
                     '</button>' +
                     '<div class="float-right residuos-text">' +
@@ -94,8 +94,8 @@ $(function() {
                             '<p class="p-2 font-responsive">Permiso para el transporte de residuos ante la SEMARNAT(DFMARNAT-3200-2017)</p>' +
                         '</div>' +
                     '</div>' +
-                    '<div class="float-left residuos-img text-center">' +
-                        '<img class="w-75 h-100" src="img/servicios/servicios.jpg"/>' +
+                    '<div class="float-left text-center">' +
+                        '<img class="w-25" src="img/servicios/residuos.png"/>' +
                     '</div>' +
                 '</div>';
         }

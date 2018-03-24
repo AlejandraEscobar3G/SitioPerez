@@ -251,15 +251,17 @@
                 <h2 class="p-4 section text-light text-center display-5 mb-0">SERVICIOS</h2>
             </div>
         </div>
-        <div class="row no-gutters">
-            <p class="col text-center p-5 mb-0">Contamos con una amplia variedad de servicios, desde manejo de residuos peligrosos, hasta productos con grado alimenticio.</p>
-        </div>
-        <div class="row no-gutters position-relative" id="services">
-            <div class="col-12 col-md-6">
-                <img class="d-block mx-auto logos-serv p-5" data-toggle="tooltip" data-placement="top" title="Click here" id="transporte" src="img/icons/transporte.png" alt="transporte">
+        <div class="position-relative" id="services">
+            <div class="row no-gutters">
+                <p class="col text-center p-5 mb-0">Contamos con una amplia variedad de servicios, desde manejo de residuos peligrosos, hasta productos con grado alimenticio.</p>
             </div>
-            <div class="col-12 col-md-6">
-                <img class="d-block mx-auto logos-serv p-5" data-toggle="tooltip" data-placement="top" title="Click here" id="residuos" src="img/icons/residuos.png" alt="residuos">
+            <div class="row no-gutters p-3">
+                <div class="col-12 col-md-6">
+                    <img class="d-block mx-auto logos-serv p-4" data-toggle="tooltip" data-placement="top" title="Click here" id="transporte" src="img/icons/transporte.png" alt="transporte">
+                </div>
+                <div class="col-12 col-md-6">
+                    <img class="d-block mx-auto logos-serv p-5" data-toggle="tooltip" data-placement="top" title="Click here" id="residuos" src="img/icons/residuos.png" alt="residuos">
+                </div>
             </div>
         </div>
     </div>
