@@ -273,47 +273,51 @@
                 <h2 class="p-4 section text-light text-center display-5 mb-0">CLIENTES</h2>
             </div>
         </div>
-        <div class="row no-gutters p-5 justify-content-center">
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
+        <div class="row no-gutters justify-content-center">
+            <div class="col-6 col-md align-self-center p-4">
                 <img class="clientes d-block mx-auto" src="img/clientes/dow.png" alt="dow">
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
+            <div class="col-6 col-md align-self-center p-4">
+                <img class="clientes d-block mx-auto" src="img/clientes/monsanto.png" alt="bayer">
+            </div>
+            <div class="col-6 col-md align-self-center p-4">
                 <img class="clientes d-block mx-auto" src="img/clientes/dupont.png" alt="dupont">
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
-                <img class="clientes d-block mx-auto" src="img/clientes/bayer.png" alt="bayer">
+            <div class="col-6 col-md align-self-center p-4">
+                <img class="clientes d-block mx-auto" src="img/clientes/comex.png" alt="covestro">
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
-                <img class="clientes d-block mx-auto" src="img/clientes/covestro.png" alt="covestro">
+            <div class="d-none d-sm-none d-md-block col-md align-self-center p-4">
+                <img class="clientes d-block mx-auto" src="img/clientes/agricultura.png" alt="dow">
             </div>
-            <div class="w-100 d-none d-md-block"></div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
-                <img class="clientes d-block mx-auto" src="img/clientes/monsanto.png" alt="monsanto">
+        </div>
+        <div class="row no-gutters justify-content-center">
+            <div class="d-none d-sm-none d-md-block col-md"></div>
+            <div class="col-4 col-md align-self-center p-4">
+                <img class="clientes d-block mx-auto" src="img/clientes/bayer.png" alt="monsanto">
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
+            <div class="col-4 col-md align-self-center p-4">
                 <img class="clientes d-block mx-auto" src="img/clientes/basf.png" alt="basf">
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
-                <img class="clientes d-block mx-auto" src="img/clientes/comex.png" alt="comex">
+            <div class="col-4 col-md align-self-center p-4">
+                <img class="clientes d-block mx-auto" src="img/clientes/covestro.png" alt="comex">
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
-                <img class="clientes d-block mx-auto" src="img/clientes/agricultura.png" alt="agricultura">
-            </div>
-            <div class="w-100 d-none d-md-block"></div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
+            <div class="d-none d-sm-none d-md-block col-md"></div>
+        </div>
+        <div class="row no-gutters justify-content-center">
+            <div class="col-6 col-md align-self-center p-4">
                 <img class="clientes d-block mx-auto" src="img/clientes/panalpina.png" alt="panalpina">
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-3 align-self-center p-4">
-                <img class="clientes d-block mx-auto" src="img/clientes/pochteca.png" alt="pochteca">
+            <div class="col-6 col-md align-self-center p-4">
+                <img class="clientes d-block mx-auto" src="img/clientes/walmart.png" alt="walmart">
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 align-self-center p-4">
+            <div class="col-6 col-md align-self-center p-4">
                 <img class="clientes d-block mx-auto" src="img/clientes/syngenta.png" alt="syngenta">
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 align-self-center p-4">
+            <div class="col-6 col-md align-self-center p-4">
                 <img class="clientes d-block mx-auto" src="img/clientes/chedraui.png" alt="chedraui">
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 align-self-center p-4">
-                <img class="clientes d-block mx-auto" src="img/clientes/walmart.png" alt="walmart">
+            <div class="d-none d-sm-none d-md-block col-md align-self-center p-4">
+                <img class="clientes d-block mx-auto" src="img/clientes/pochteca.png" alt="pochteca">
             </div>
         </div>
     </div>
