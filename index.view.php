@@ -393,8 +393,36 @@
     <!-- footer -->
     <footer class="container-fluid px-0 blue">
         <div class="row justify-content-between p-4 no-gutters">
-            <div class="col-12 col-sm-6 footer-left"><a class="text-light" href="aviso_privacidad.pdf"><small>AVISO DE PRIVACIDAD</small></a></div>
+            <div class="col-12 col-sm-6 footer-left"><a class="text-light"  data-toggle="modal" data-target="#avisoPrivacidad"><small>AVISO DE PRIVACIDAD</small></a></div>
             <div class="col-12 col-sm-6 footer-right"><a class="text-light" href="#"><small>IR ARRIBA</small></a></div>
+            <!-- Modal -->
+            <div class="modal fade" id="avisoPrivacidad" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title pl-4">Aviso de privacidad</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-justify py-4 px-5">
+                            Este mensaje y documentos adjuntos, no generan ni constituyen acuerdos o vínculos jurídicos, contractuales o similares; no obligan a
+                            TRANSPORTADORA Y LOGISTICA PEREZ, S.A. DE C.V., salvo manifestación expresa y por escrito. "Aviso de Confidencialidad".
+                            La información contenida y/o adjunta es de uso exclusivo de los destinatarios y considerada como información confidencial, privilegiada y
+                            protegida por las Leyes Aplicables. A ninguna persona ajena a dichos destinatarios se le autoriza cualquier clase de uso, divulgación,
+                            intercepción o reproducción, parcial o total, de este mensaje y de la información que contiene y/o se adjunta. Si ha recibido este correo por
+                            error le solicitamos lo notifique inmediatamente al remitente, reenviando este mensaje y elimínelo de su sistema. En los términos de la Ley
+                            Federal de Protección de Datos Personales en Posesión de los Particulares, TRANSPORTADORA Y LOGISTICA PEREZ, S.A. DE
+
+                            C.V., es responsable del tratamiento de sus datos personales que tiene registrados, con motivo de su inscripción o información
+                            proporcionada a la Institución. Promovemos y defendemos los principios y valores empresariales, sin el afán de molestarle o poner en
+                            peligro sus datos. Si usted ya no desea recibir informaciónn nuestra, agradeceríamos nos lo haga saber por cualquiera de los siguientes
+                            medios: teléfono (01 591) 9120803, oscar571@prodigy.net.mx  por escrito o de manera personal en Av. Juárez 17 Col. Centro Santiago
+                            Tequixquiac, Estado de México.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- SCRIPTS -->
