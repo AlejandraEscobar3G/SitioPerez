@@ -100,9 +100,13 @@
         width: 60%;
         height: 100%;
     }
-    .residuos-text, .residuos-img {
+    .residuos-text {
         width: 50%;
         height: 100%;
+    }
+    .residuos-img {
+        width: 70%;
+        height: auto;
     }
     img.img-thumbnail {
         height: 160px;

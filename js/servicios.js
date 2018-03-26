@@ -84,18 +84,22 @@ $(function() {
                     '<button type="button" class="close position-absolute" aria-label="Close">' +
                         '<span aria-hidden="true">&times;</span>' +
                     '</button>' +
-                    '<div class="float-right residuos-text">' +
-                        '<div class="h-50 w-100 text-center">' +
-                            '<img class="residuo-icon" src="img/icons/sct.png"/>' +
-                            '<p class="p-2 font-responsive">Permiso para el transporte terrestre de materiales y residuos peligrosos, emitido por la SCT(No-1512)</p>' +
+                    '<div class="container pt-4">' +
+                        '<div class="row">' +
+                            '<div class="col-5">' +
+                                '<img class="mx-auto d-block residuos-img" src="img/servicios/residuos.png" alt="residuos">' +
+                            '</div>' +
+                            '<div class="col-7">' +
+                                '<div>' +
+                                    '<img class="residuo-icon mx-auto d-block" src="img/icons/sct.png"/>' +
+                                    '<p class="text-center p-2 font-responsive">Permiso para el transporte terrestre de materiales y residuos peligrosos, emitido por la SCT(No-1512)</p>' +
+                                '</div>' +
+                                '<div>' +
+                                    '<img class="residuo-icon mx-auto d-block" src="img/icons/semarnat.png"/>' +
+                                    '<p class="text-center p-2 font-responsive">Permiso para el transporte de residuos ante la SEMARNAT(DFMARNAT-3200-2017)</p>' +
+                                '</div>' +
+                            '</div>' +
                         '</div>' +
-                        '<div class="h-50 w-100 text-center">' +
-                            '<img class="residuo-icon" src="img/icons/semarnat.png"/>' +
-                            '<p class="p-2 font-responsive">Permiso para el transporte de residuos ante la SEMARNAT(DFMARNAT-3200-2017)</p>' +
-                        '</div>' +
-                    '</div>' +
-                    '<div class="float-left text-center">' +
-                        '<img class="w-25" src="img/servicios/residuos.png"/>' +
                     '</div>' +
                 '</div>';
         }
