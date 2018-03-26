@@ -369,7 +369,7 @@
                         <p class="p-2"><b>TELÉFONOS</b> <br>(01 59) 19 12 08 03 <br>(01 59) 19 12 11 33</p>
                     </div>
                     <div class="col">
-                        <p class="p-2 text-justify"><b>HORARIOS</b> <br>De lunes a viernes de 09:00 a 06:30pm y los sábados de 09:00-1:00pm</p>
+                        <p class="p-2 text-justify"><b>HORARIOS</b> <br>Lunes a viernes de 09:00 am - 06:30 pm <br>Sábados de 09:00 am - 1:00 pm</p>
                         <br>
                         <p class="p-2 text-justify"><b>EMAIL</b> <br>servicios@corporativoperez.com</p>
                     </div>
