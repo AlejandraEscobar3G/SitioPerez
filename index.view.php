@@ -259,14 +259,49 @@
         </div>
         <div class="position-relative" id="services">
             <div class="row no-gutters">
-                <p class="col text-center p-5 mb-0">Contamos con una amplia variedad de servicios, desde manejo de residuos peligrosos, hasta productos con grado alimenticio.</p>
+                <p class="col text-center p-5 mb-0">Contamos con el equipo necesario para llevar tu producto a donde tu lo requieras.</p>
             </div>
             <div class="row no-gutters p-3">
-                <div class="col-12 col-md-6">
-                    <img class="d-block mx-auto logos-serv p-4" data-toggle="tooltip" data-placement="top" title="Click here" id="transporte" src="img/icons/transporte.png" alt="transporte">
+                <div class="col-12 col-md-4">
+                    <div class="px-5">
+                        <p class="text-center pb-4">
+                            <span class="border-blue py-2 px-3 h3">SERVICIOS</span>
+                        </p>
+                        <div class="px-5 py-4 border">
+                            <ul class="px-2 check">
+                                <li> Servicios nacionales al interior de la República</li>
+                                <li> Servicios de importación y exportación en puertos de Veracruz y Manzanillo. (Portacondenedores).</li>
+                                <li> Cruce de frontera (Caja Seca).</li>
+                                <li> Servicios Refrigerados</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img class="d-block mx-auto logos-serv p-5" data-toggle="tooltip" data-placement="top" title="Click here" id="residuos" src="img/icons/residuos.png" alt="residuos">
+                <div class="col-12 col-md-8">
+                    <div class="row pb-4">
+                        <div class="col">
+                            <p class="text-center">
+                                <span class="border-blue py-2 px-3 h3">FLOTILLA</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 align-self-center">
+                            <div class="py-4 border">
+                                <ul class="check">
+                                    <li> Rabón de 3 1/2 toneladas</li>
+                                    <li> Rabón de 5 toneladas</li>
+                                    <li> Rabón de 9 toneladas</li>
+                                    <li> Tráiler</li>
+                                    <li> Tortón</li>
+                                    <li> Tolva</li>
+                                    <li> Portacontenedores</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
