@@ -2,12 +2,6 @@
     #certificaciones{
         background-image: url("../img/fondos/certificaciones.jpg");
     }
-    .attachment{
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: 0% 100% !important;
-        background-attachment: fixed;
-    }
     #servicios{
         background-image: url("../img/fondos/servicio.jpg");
     }
@@ -33,13 +27,19 @@
         background-color: rgba(18, 155, 91, 0.79);
     }
     .display-5{
-        font-size: 2.5rem;
+        font-size: 2.35rem;
         font-weight: 1;
     }
     .fondo{
         background-image: url("../img/fondos/fondo.png");
         background-repeat: repeat;
         background-size: auto;
+    }
+    .attachment{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 0% 100% !important;
+        background-attachment: fixed;
     }
 /* home styles */
     .slider{
@@ -53,8 +53,7 @@
         opacity: 0.8;
     }
     .responsive-font{
-        font-size: 1rem;
-        padding-top: 12.5%;
+        font-size: 0.9rem;
     }
     .bottom{
         bottom: 0%;
@@ -73,7 +72,7 @@
         padding-top: 100px;
     }
     .width-side{
-        width: 40%;
+        width: 30%;
     }
 /* servicios styles */
     .logos-serv{

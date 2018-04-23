@@ -61,7 +61,7 @@
                 </div>
                 <div class="position-relative">
                     <img class="d-block slider" src="img/inicio/gps.jpg" alt="1 slide">
-                    <div class="position-absolute field bottom d-none d-md-block">
+                    <div class="position-absolute field bottom d-none d-md-block responsive-font py-3">
                         <p class="w-50 d-block float-left text-light py-4 px-5 text-justify">Tenemos 50 años de experiencia en el transporte terrestre; hemos crecido a la par de las regulaciones para el traslado de materiales y residuos peligrosos. <br>Buscamos la excelencia y la rentabilidad mediante los niveles óptimos de competitividad, servicio, calidad, seguridad y protección al medio ambiente.</p>
                         <p class="w-50 d-block float-left text-light py-4 px-5 text-justify">Anticipamos las necesidades del cliente y del mercado excediendo los estándares requeridos a través de la inversión, creatividad e innovación. <br>Reconocemos el valor de nuestro personal fomentando su constante superación para contar con recursos humanos calificados y comprometidos.</p>
                     </div>
@@ -77,10 +77,10 @@
                 </div>
                 <div class="position-relative">
                     <img class="d-block slider" src="img/inicio/gps.jpg" alt="2 slide">
-                    <div class="position-absolute field p-4 left d-none d-md-block width-side">
+                    <div class="position-absolute field p-4 left d-none d-md-block width-side responsive-font">
                         <p class="d-block text-light py-3 px-3 text-justify">Rastreo y monitoreo permanente durante todo el trayecto de su carga.</p>
                         <p class="d-block text-light py-3 px-3 text-justify">Anticipamos las necesidades del cliente y del mercado excediendo los estándares requeridos a través de la inversión, creatividad e innovación. <br>Reconocemos el valor de nuestro personal fomentando su constante superación para contar con recursos humanos calificados y comprometidos.</p>
-                        <ul class="list-unstyled py-4 text-light text-center pt-4">
+                        <ul class="list-unstyled py-4 text-light pt-4 px-3">
                             <li>√  Apagado de motor</li>
                             <li>√  Sensores de movimiento</li>
                             <li>√  Cuenta espejo</li>
@@ -99,7 +99,7 @@
                 </div>
                 <div class="position-relative">
                     <img class="d-block slider" src="img/inicio/autoproteccion.jpg" alt="3 slide">
-                    <div class="position-absolute field right d-none d-lg-block text-light width-side">
+                    <div class="position-absolute field right d-none d-lg-block text-light width-side responsive-font">
                         <p class="text-justify py-4 px-4">Nuestros operadores están capacitados para cualquier situación de derrame o fuga durante su trayecto. Para eso cuentan con todas las medidas de contención como lo son: </p>
                         <ul class="list-unstyled px-5 py-2 responsive-font">
                             <li>√ Material absorbente de 50 kg.</li>
@@ -136,8 +136,8 @@
                         <div class="col-6 col-lg-5 align-self-center">
                             <img class="d-block mx-auto" id="proccyt-slide" src="img/inicio/logo_proccyt.png" alt="proccyt">
                         </div>
-                        <div class="position-absolute field bottom w-100 d-none d-lg-block text-light">
-                            <p class="text-justify text-center py-5 px-4">Reconocimiento por parte de PROCCYT por alcanzar los más altos estándares de calidad en transportación, noviembre 2004.</p>
+                        <div class="position-absolute field left d-none d-lg-block text-light responsive-font py-5">
+                            <p class="text-justify text-center py-5 px-4">Reconocimiento por parte de PROCCYT por alcanzar <br/>los más altos estándares de calidad en transportación, <br/>noviembre 2004.</p>
                         </div>
                     </div>
                 </div>
@@ -152,9 +152,9 @@
                 </div>
                 <div class="position-relative">
                     <img class="d-block w-100 slider" src="img/inicio/riesgos.jpg" alt="4 slide">
-                    <div class="position-absolute field d-none d-md-block right p-5 text-light width-side">
+                    <div class="position-absolute field d-none d-md-block right px-4 py-5 text-light width-side responsive-font">
                         <p class="text-justify px-3">Capacidad, experiencia y equipo necesarios para transportar de forma segura y eficiente productos químicos, agroquímicos y materiales peligrosos en vehículos terrestres. Equipo de seguridad especializado como lo es: </p>
-                        <ul class="list-unstyled px-3 responsive-font">
+                        <ul class="list-unstyled px-3">
                             <li>√ Uniforme distintivo.</li>
                             <li>√ Casco.</li>
                             <li>√ Lentes de seguridad.</li>
@@ -219,26 +219,32 @@
             <div class="col-sm-2"></div>
         </div>
         <div class="row no-gutters pt-5">
-            <div class="col-12 col-md-4">
-                <div class="p-4 text-left text-light blue text-center h-100">
+            <div class="col-12 col-md">
+                <div class="h-100">
                     <p class="text-center display-5">PERMISOS</p>
-                    <p class="p-2">Permiso para el transporte terrestre de materiales y residuos peligrosos, emitido por la SCT (No-1512)</p>
-                    <p class="p-2">Permiso para el transporte de residuos ante la SEMARNAT (DFMARNAT-3200-2017)</p>
-                    <p class="p-2">Licencias tipo "E" de conductores de camión. Afiliación al seguro social a operadores.</p>
+                    <div class="p-4 text-left text-light blue text-center">
+                        <p class="p-2">Permiso para el transporte terrestre de materiales y residuos peligrosos, emitido por la SCT (No-1512)</p>
+                        <p class="p-2">Permiso para el transporte de residuos ante la SEMARNAT (DFMARNAT-3200-2017)</p>
+                        <p class="p-2">Licencias tipo "E" de conductores de camión. Afiliación al seguro social a operadores.</p>
+                        <p class="p-2">Autorización para la recolección y transporte de residuos peligrosos. (15-096-PS-I-54-2003)</p>
+                        <p class="p-2">Tarjeta de circulación especificada para el transporte de materiales y residuos peligrosos.</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-2 align-self-center">
-                <img class="mx-auto d-block img-fluid" src="img/icons/sct.png" alt="sct">
-            </div>
-            <div class="col-md-2 align-self-center">
-                <img class="mx-auto d-block img-fluid" src="img/icons/semarnat.png" alt="semarnat">
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="p-4 text-light blue text-center h-100">
+            <div class="col-md-1 align-self-center"></div>
+            <div class="col-12 col-md">
+                <div class="h-100">
                     <p class="text-center display-5">IDENTIFICACIÓN</p>
-                    <p class="p-2">Autorización para la recolección y transporte de residuos peligrosos. (15-096-PS-I-54-2003)</p>
-                    <p class="p-2">Tarjeta de circulación especificada para el transporte de materiales y residuos peligrosos.</p>
-                    <p class="p-2">IDENTIFICACIÓN <br>Portarrombos <br>Datos de teléfono de emergencia <br>Guía norteamericana de respuesta a emergencias</p>
+                    <div class="p-4 text-light blue text-center">
+                        <p class="p-2">Portarombos</p>
+                        <p class="p-2">Datos de teléfono de emergencia</p>
+                        <p class="p-2">Guía norteamericana de respuesta a emergencias</p>
+                    </div>
+                    <p class="text-center display-5">PÓLIZA GNP</p>
+                    <div class="p-4 text-light blue text-center">
+                        <p class="p-2">Seguro ecológico</p>
+                        <p class="p-2">Terceros</p>
+                    </div>
                 </div>
             </div>
         </div>
