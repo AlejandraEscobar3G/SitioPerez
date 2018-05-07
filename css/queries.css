@@ -232,21 +232,11 @@
     .title{
         font-size: 2rem;
     }
-    #proccyt-slide{
-        width: 50%;
-    }
     #slide-proc{
         width: 50%;
     }
-    .cursor {
-        margin-left: 20%;
-    }
     .font-responsive{
         font-size: 15px;
-    }
-    .residuo-icon{
-        width: 40%;
-        height: auto;
     }
     .logo-perez{
         width: 120px;
