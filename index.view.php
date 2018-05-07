@@ -100,10 +100,10 @@
                     </div>
                     <div class="container-fluid h-87 p-0">
                         <div class="row h-100">
-                            <div class="col-lg-8 p-0">
+                            <div class="col col-lg-8 p-0">
                                 <img class="d-block w-100 h-100" src="img/inicio/slide3.png" alt="3 slide">
                             </div>
-                            <div class="col-lg-4 align-self-center">
+                            <div class="d-none d-lg-block d-xl-block col-lg-4 align-self-center">
                                 <div class="pl-1 pr-4 py-2">
                                     <ul class="check-blue font-blue">
                                         <li>Sistema de rastreo satelital las 24 horas, en todas las unidades.</li>
@@ -158,8 +158,8 @@
                             <div class="col p-0 align-self-center">
                                 <img class="d-block w-75 mx-auto" id="canacar" src="img/inicio/logo_canacar.png" alt="5 slide">
                             </div>
-                            <div class="col">
-                                <img class="d-block w-100" id="slide-trailer4" src="img/inicio/residuos.png" alt="5 slide">
+                            <div class="col align-self-center">
+                                <img class="d-block mx-auto" id="slide-trailer4" src="img/inicio/residuos.png" alt="5 slide">
                             </div>
                             <div class="col p-0 align-self-center">
                                 <img class="d-block w-75 mx-auto" id="slide-proc" src="img/inicio/logo_proccyt.png" alt="5 slide">
@@ -182,14 +182,14 @@
             <p class="col text-center p-5 mb-0">Se cumple con todas las disposiciones referentes a la reglamentación para el transporte terrestre de materiales y residuos peligrosos, de acuerdo al reglamento emitido por la SCT, y las normas oficiales correspondientes</p>
         </div>
         <div class="row no-gutters align-items-end">
-            <div class="col-sm-2"></div>
-            <div class="col-12 col-sm-4">
+            <div class="d-none d-sm-block col-sm-2"></div>
+            <div class="col-6 col-sm-4">
                 <img class="h-90 d-block float-right" src="img/certificaciones/aniq.png" alt="aniq">
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="col-6 col-sm-4">
                 <img class="h-90 d-block float-left" src="img/certificaciones/integral.png" alt="integral">
             </div>
-            <div class="col-sm-2"></div>
+            <div class="d-none d-sm-block col-sm-2"></div>
         </div>
         <div class="row no-gutters align-items-center">
             <div class="d-none d-sm-block col-sm-2 col-md-4 p-3 ">
@@ -207,14 +207,14 @@
             </div>
         </div>
         <div class="row no-gutters align-items-start">
-            <div class="col-sm-2"></div>
-            <div class="col-12 col-sm-4">
+            <div class="d-none d-sm-block col-sm-2"></div>
+            <div class="col-6 col-sm-4">
                 <img class="float-right d-block h-90" src="img/certificaciones/neec.png" alt="neec">
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="col-6 col-sm-4">
                 <img class="h-90 d-block float-left" src="img/certificaciones/recurso.jpg" alt="recurso">
             </div>
-            <div class="col-sm-2"></div>
+            <div class="d-none d-sm-block col-sm-2"></div>
         </div>
         <div class="row no-gutters pt-5">
             <div class="col-12 col-md">
@@ -260,12 +260,12 @@
                 <p class="col text-center p-5 mb-0">Contamos con el equipo necesario para llevar tu producto a donde tu lo requieras.</p>
             </div>
             <div class="row no-gutters p-3">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-lg-4">
                     <div class="px-5">
                         <p class="text-center pb-4">
                             <span class="border-blue py-2 px-3 h3">SERVICIOS</span>
                         </p>
-                        <div class="px-5 py-4 border">
+                        <div class="py-4 border">
                             <ul class="px-2 check">
                                 <li> Servicios nacionales al interior de la República</li>
                                 <li> Servicios de importación y exportación en puertos de Veracruz y Manzanillo. (Portacondenedores).</li>
@@ -275,7 +275,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-lg-8">
                     <div class="row pb-4">
                         <div class="col">
                             <p class="text-center">
@@ -285,7 +285,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-4 align-self-center">
-                            <div class="py-4 border">
+                            <div class="py-3 border">
                                 <ul class="check">
                                     <li class="flotilla" id="1"> Rabón de 3 1/2 toneladas</li>
                                     <li class="flotilla" id="2"> Rabón de 5 toneladas</li>

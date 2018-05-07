@@ -1,53 +1,16 @@
 /* Super small devices (portrait phones, less than 576px) */
-@media (max-width: 439.98px) {
+@media (max-width: 475.98px) {
     .buttons-menu{
         padding: 1% 5%;
-    }
-    #proccyt-slide{
-        width: 100px;
-        height: 100px;
-    }
-    #slide-proc{
-        width: 100%;
     }
     .display-5{
         font-size: 25px;
     }
     .title{
-        font-size: 1.3rem;
+        font-size: 0.8rem;
     }
     .footer-left, .footer-right{
         text-align: center;
-    }
-    .square{
-        width: 100%;
-        height: 50%;
-    }
-    .logos-serv{
-        width: 80%;
-    }
-    .ul-services{
-        padding-top: 7%;
-        width: 100%;
-        text-align: center;
-    }
-    .img-service{
-        width: 100%;
-        height: 100%;
-    }
-    .font-responsive{
-        font-size: 12px;
-    }
-    .square-left{
-        top: 0;
-    }
-    .residuos-text, .residuos-img {
-        width: 100%;
-        height: 100%;
-    }
-    .residuo-icon{
-        width: 30%;
-        height: auto;
     }
     .square-contacto>.h1{
         font-size: 20px;
@@ -56,6 +19,76 @@
         width: 80px;
         height: auto;
     }
+    .responsive-font{
+        font-size: 0.5rem;
+        padding-top: 0%;
+    }
+    #slide-trailer4 {
+        width: 100%;
+        height: 200px;
+    }
+    .slider {
+        height: 310px!important;
+    }
+    .h-13 {
+        height: 20%!important;
+    }
+    .h-87 {
+        height: 80%!important;
+    }
+    .h-20 {
+        height: 32%!important;
+    }
+    .h-80 {
+        height: 68%!important;
+    }
+    div.carousel-item {
+        padding-top: 74px!important;
+    }
+}
+@media (min-width: 376px) and (max-width: 439.98px) {
+    .buttons-menu{
+        padding: 1% 5%;
+    }
+    .title{
+        font-size: 1.1rem;
+    }
+    .display-5{
+        font-size: 30px;
+    }
+    .footer-left, .footer-right{
+        text-align: center;
+    }
+    .logo-perez{
+        width: 90px;
+        height: auto;
+    }
+    .responsive-font{
+        font-size: 0.5rem;
+        padding-top: 0%;
+    }
+    #slide-trailer4 {
+        width: 100%;
+        height: 220px;
+    }
+    .slider {
+        height: 340px!important;
+    }
+    .h-13 {
+        height: 20%!important;
+    }
+    .h-87 {
+        height: 80%!important;
+    }
+    .h-20 {
+        height: 32%!important;
+    }
+    .h-80 {
+        height: 68%!important;
+    }
+    div.carousel-item {
+        padding-top: 74px!important;
+    }
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 440px) and (max-width: 575.98px) {
@@ -63,127 +96,86 @@
         padding: 1% 5%;
     }
     .title{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .display-5{
         font-size: 30px;
     }
-    #slide-proc{
-        width: 100%;
-    }
-    #proccyt-slide{
-        width: 150px;
-        height: 150px;
-    }
     .footer-left, .footer-right{
         text-align: center;
-    }
-    .square{
-        width: 100%;
-        height: 50%;
-    }
-    .logos-serv{
-        width: 60%;
-    }
-    .ul-services{
-        padding-top: 7%;
-        width: 100%;
-        text-align: center;
-    }
-    .img-service{
-        width: 100%;
-        height: 100%;
-    }
-    .font-responsive{
-        font-size: 15px;
-    }
-    .square-left{
-        top: 0;
-    }
-    .residuos-text, .residuos-img {
-        width: 100%;
-        height: 100%;
-    }
-    .residuo-icon{
-        width: 30%;
-        height: auto;
     }
     .logo-perez{
         width: 90px;
         height: auto;
     }
+    .responsive-font{
+        font-size: 0.6rem;
+        padding-top: 0%;
+    }
+    #slide-trailer4 {
+        width: 100%;
+        height: 278px;
+    }
+    .slider {
+        height: 400px!important;
+    }
+    .h-13 {
+        height: 18%!important;
+    }
+    .h-87 {
+        height: 80%!important;
+    }
+    .h-20 {
+        height: 28%!important;
+    }
+    .h-80 {
+        height: 72%!important;
+    }
+    div.carousel-item {
+        padding-top: 74px!important;
+    }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     .title{
-        font-size: 2rem;
-    }
-    #slide-proc, #proccyt-slide{
-        width: 70%;
-    }
-    .square{
-        width: 100%;
-        height: 50%;
-    }
-    .logos-serv{
-        width: 50%;
-    }
-    .ul-services{
-        padding-top: 7%;
-        width: 50%;
-    }
-    .img-service{
-        width: 50%;
-        height: 100%;
-    }
-    .cursor {
-        margin-left: 10%;
-    }
-    .font-responsive{
-        font-size: 15px;
-    }
-    .residuo-icon{
-        width: 40%;
-        height: auto;
+        font-size: 1.7rem;
     }
     .responsive-font{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         padding-top: 0%;
     }
     .logo-perez{
         width: 100px;
         height: auto;
     }
+    #slide-trailer4 {
+        width: 100%;
+        height: 320px;
+    }
+    .slider {
+        height: 450px!important;
+    }
+    .h-13 {
+        height: 18%!important;
+    }
+    .h-87 {
+        height: 82%!important;
+    }
+    .h-20 {
+        height: 25%!important;
+    }
+    .h-80 {
+        height: 75%!important;
+    }
+    div.carousel-item {
+        padding-top: 69px!important;
+    }
+
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .title{
         font-size: 2rem;
-    }
-    #slide-proc{
-        width: 65%;
-    }
-    #proccyt-slide{
-        width:70%;
-    }
-    .square{
-        width: 100%;
-    }
-    .logos-serv{
-        width: 70%;
-    }
-    .ul-services{
-        padding-top: 5%;
-    }
-    .cursor {
-        margin-left: 20%;
-    }
-    .font-responsive{
-        font-size: 15px;
-    }
-    .residuo-icon{
-        width: 30%;
-        height: auto;
     }
     .responsive-font{
         font-size: 0.7rem;
@@ -193,30 +185,33 @@
         width: 115px;
         height: auto;
     }
+    #slide-trailer4 {
+        width: 90%;
+        height: 330px;
+    }
+    .slider {
+        height: 500px!important;
+    }
+    .h-13 {
+        height: 18%!important;
+    }
+    .h-87 {
+        height: 82%!important;
+    }
+    .h-20 {
+        height: 25%!important;
+    }
+    .h-80 {
+        height: 75%!important;
+    }
+    div.carousel-item {
+        padding-top: 100px!important;
+    }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .title{
         font-size: 2rem;
-    }
-    #slide-proc{
-        width: 50%;
-    }
-    #proccyt-slide{
-        width:50%;
-    }
-    .logos-serv{
-        width: 60%;
-    }
-    .cursor {
-        margin-left: 15%;
-    }
-    .font-responsive{
-        font-size: 14px;
-    }
-    .residuo-icon{
-        width: 40%;
-        height: auto;
     }
     .responsive-font{
         font-size: 0.85rem;
@@ -226,20 +221,43 @@
         width: 118px;
         height: auto;
     }
+    #slide-trailer4 {
+        width: 90%;
+        height: 460px;
+    }
+    .slider {
+        height: 600px!important;
+    }
+    .h-13 {
+        height: 14%!important;
+    }
+    .h-87 {
+        height: 86%!important;
+    }
+    .h-20 {
+        height: 22%!important;
+    }
+    .h-80 {
+        height: 78%!important;
+    }
+    div.carousel-item {
+        padding-top: 100px!important;
+    }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .title{
         font-size: 2rem;
     }
-    #slide-proc{
-        width: 50%;
-    }
-    .font-responsive{
-        font-size: 15px;
-    }
     .logo-perez{
         width: 120px;
         height: auto;
+    }
+    #slide-trailer4 {
+        width: 80%;
+        height: 490px;
+    }
+    div.carousel-item {
+        padding-top: 100px!important;
     }
 }
