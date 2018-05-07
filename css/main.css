@@ -70,10 +70,6 @@
     .title {
         font-size: 2rem;
     }
-    .field {
-        background-color: black;
-        opacity: 0.8;
-    }
     .field-blue{
         background-color: #33357B;
         opacity: 0.8;
@@ -81,57 +77,13 @@
     .responsive-font {
         font-size: 0.9rem;
     }
-    .bottom {
-        bottom: 0%;
-    }
     .top {
         top: 5%;
-    }
-    .right {
-        right: 0%;
-        top: 0%;
-        height: 100%;
-    }
-    .left {
-        left: 0%;
-        top: 0%;
-        height: 100%;
     }
     div.carousel-item {
         padding-top: 100px;
     }
-    .width-side {
-        width: 30%;
-    }
 /* servicios styles */
-    .square {
-        position: absolute;
-        top: 0%;
-        width: 100%;
-        height: 100%;
-        background-color: white;
-        z-index: 2;
-    }
-    .ul-services {
-        padding-top: 7%;
-        width: 40%;
-    }
-    .img-service {
-        width: 60%;
-        height: 100%;
-    }
-    .residuos-text {
-        width: 50%;
-        height: 100%;
-    }
-    .residuos-img {
-        width: 70%;
-        height: auto;
-    }
-    img.img-thumbnail {
-        height: 160px;
-        width: 100%;
-    }
     .close {
         z-index: 3;
     }
