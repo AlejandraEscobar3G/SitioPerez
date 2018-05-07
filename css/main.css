@@ -15,7 +15,7 @@
         width: 50%;
     }
 /* general styles */
-    .blue {
+    .blue, li.checked {
         background-color: #33357B;
     }
     .font-blue {
