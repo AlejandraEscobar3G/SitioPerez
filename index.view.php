@@ -51,122 +51,120 @@
             <li data-target="#indicators" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner">
+            <!-- slide 1 -->
             <div class="carousel-item active">
-                <div class="blue text-light container-fluid">
-                    <div class="row">
-                        <div class="col">
-                            <p class="title pt-4 pl-4">MISIÓN, VISIÓN Y TRAYECTORIA</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="position-relative">
-                    <img class="d-block slider" src="img/inicio/gps.jpg" alt="1 slide">
-                    <div class="position-absolute field bottom d-none d-md-block responsive-font py-3">
-                        <p class="w-50 d-block float-left text-light py-4 px-5 text-justify">Tenemos 50 años de experiencia en el transporte terrestre; hemos crecido a la par de las regulaciones para el traslado de materiales y residuos peligrosos. <br>Buscamos la excelencia y la rentabilidad mediante los niveles óptimos de competitividad, servicio, calidad, seguridad y protección al medio ambiente.</p>
-                        <p class="w-50 d-block float-left text-light py-4 px-5 text-justify">Anticipamos las necesidades del cliente y del mercado excediendo los estándares requeridos a través de la inversión, creatividad e innovación. <br>Reconocemos el valor de nuestro personal fomentando su constante superación para contar con recursos humanos calificados y comprometidos.</p>
-                    </div>
+                    <img class="d-block slider" src="img/inicio/slide1.jpg" alt="1 slide">
                 </div>
             </div>
+            <!-- slide 2 -->
             <div class="carousel-item">
-                <div class="blue text-light container-fluid">
-                    <div class="row">
-                        <div class="col">
-                            <p class="title pt-4 pl-4">RASTREO GPS</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="position-relative">
-                    <img class="d-block slider" src="img/inicio/gps.jpg" alt="2 slide">
-                    <div class="position-absolute field p-4 left d-none d-md-block width-side responsive-font">
-                        <p class="d-block text-light py-3 px-3 text-justify">Rastreo y monitoreo permanente durante todo el trayecto de su carga.</p>
-                        <p class="d-block text-light py-3 px-3 text-justify">Anticipamos las necesidades del cliente y del mercado excediendo los estándares requeridos a través de la inversión, creatividad e innovación. <br>Reconocemos el valor de nuestro personal fomentando su constante superación para contar con recursos humanos calificados y comprometidos.</p>
-                        <ul class="list-unstyled py-4 text-light pt-4 px-3">
-                            <li>√  Apagado de motor</li>
-                            <li>√  Sensores de movimiento</li>
-                            <li>√  Cuenta espejo</li>
-                            <li>√  Comunicación con operadores</li>
+                    <img class="d-block slider" src="img/inicio/slide2.png" alt="2 slide">
+                    <div class="position-absolute top w-100">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><b>¿Quiénes somos?</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><b>Misión</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false"><b>Visión</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false"><b>Valores</b></a>
+                            </li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="blue text-light container-fluid">
-                    <div class="row">
-                        <div class="col">
-                            <p class="title pt-4 pl-4">AUTOPROTECCIÓN</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="position-relative">
-                    <img class="d-block slider" src="img/inicio/autoproteccion.jpg" alt="3 slide">
-                    <div class="position-absolute field right d-none d-lg-block text-light width-side responsive-font">
-                        <p class="text-justify py-4 px-4">Nuestros operadores están capacitados para cualquier situación de derrame o fuga durante su trayecto. Para eso cuentan con todas las medidas de contención como lo son: </p>
-                        <ul class="list-unstyled px-5 py-2 responsive-font">
-                            <li>√ Material absorbente de 50 kg.</li>
-                            <li>√ Contenedor, bolsas transparentes.</li>
-                            <li>√ Depósito para contención de derrames.</li>
-                            <li>√ Pico, pala y caja de herramientas.</li>
-                            <li>√ Botiquín de primeros auxilios.</li>
-                            <li>√ Extinguidor tipo ABC de 9 kg.</li>
-                            <li>√ Lámpara sorda.</li>
-                            <li>√ Gatas de sujeción de carga.</li>
-                            <li>√ Triángulos reflejantes de seguridad.</li>
-                            <li>√ Cintas reflejantes en cajas secas.</li>
-                            <li>√ Retrancas.</li>
-                            <li>√ Servicio de telefonía celular.</li>
-                            <li>√ Localización vía satélite con GECKOTECH.</li>
-                            <li>√ Sistema de tarjeta IAVE.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="blue text-light container-fluid">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <p class="title pt-4 pl-4">MIEMBROS PROCCYT</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">   
-                    <div class="row position-relative">
-                        <div class="col-6 col-lg-7">
-                            <img class="d-block w-100 slider" id="slide-proc" src="img/inicio/tolva_roja.png" alt="5 slide">
-                        </div>
-                        <div class="col-6 col-lg-5 align-self-center">
-                            <img class="d-block mx-auto" id="proccyt-slide" src="img/inicio/logo_proccyt.png" alt="proccyt">
-                        </div>
-                        <div class="position-absolute field left d-none d-lg-block text-light responsive-font py-5">
-                            <p class="text-justify text-center py-5 px-4">Reconocimiento por parte de PROCCYT por alcanzar <br/>los más altos estándares de calidad en transportación, <br/>noviembre 2004.</p>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                        <div class="tab-pane field-blue p-3 text-light" id="home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae pariatur nobis, nisi doloremque quas eligendi asperiores quaerat placeat. Placeat distinctio eos incidunt! Iste laborum voluptatum omnis iure distinctio quam!</div>
+                        <div class="tab-pane field-blue p-3 text-light" id="profile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis delectus quam dolore quod ut rerum ad quaerat illo iusto reprehenderit facere asperiores aliquid sapiente, est omnis obcaecati. Quis, perspiciatis quo.</div>
+                        <div class="tab-pane field-blue p-3 text-light" id="messages">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo hic praesentium voluptates blanditiis odio, itaque voluptatibus facere iusto provident fugiat recusandae aliquam quisquam consequuntur! Facere maiores ullam repellendus. Alias, nam.</div>
+                        <div class="tab-pane field-blue p-3 text-light" id="settings">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque modi ex reiciendis pariatur molestiae porro blanditiis ullam animi error similique repellat, tempore quisquam dignissimos unde adipisci fuga ea obcaecati dolore!</div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- slide 3 -->
             <div class="carousel-item">
-                <div class="blue text-light container-fluid">
-                    <div class="row">
-                        <div class="col">
-                            <p class="title pt-4 pl-4">EVALUACIÓN DE RIESGOS</p>
+                <div class="slider">
+                    <div class="blue text-light container-fluid h-13">
+                        <div class="row">
+                            <div class="col">
+                                <p class="title pt-4 pl-4">GPS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid h-87 p-0">
+                        <div class="row h-100">
+                            <div class="col-lg-8 p-0">
+                                <img class="d-block w-100 h-100" src="img/inicio/slide3.png" alt="3 slide">
+                            </div>
+                            <div class="col-lg-4 align-self-center">
+                                <div class="pl-1 pr-4 py-2">
+                                    <ul class="check-blue font-blue">
+                                        <li>Sistema de rastreo satelital las 24 horas, en todas las unidades.</li>
+                                        <li>Localización en tiempo real.</li>
+                                        <li>Cuentas espejo para nuestros socios comerciales.</li>
+                                        <li>Control de velocidad.</li>
+                                        <li>Paro y bloqueo de motor.</li>
+                                        <li>Reportes dinámicos a nuestros clientes.</li>
+                                        <li>Geocercas y protocolos de seguridad.</li>
+                                        <li>Web Service.</li>
+                                        <li>En nuestras instalaciones contamos con circuito cerrado de televisión, seguridad privada y malla electrificada en toda la periferia de las oficinas y patio de maniobras.</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="position-relative">
-                    <img class="d-block w-100 slider" src="img/inicio/riesgos.jpg" alt="4 slide">
-                    <div class="position-absolute field d-none d-md-block right px-4 py-5 text-light width-side responsive-font">
-                        <p class="text-justify px-3">Capacidad, experiencia y equipo necesarios para transportar de forma segura y eficiente productos químicos, agroquímicos y materiales peligrosos en vehículos terrestres. Equipo de seguridad especializado como lo es: </p>
-                        <ul class="list-unstyled px-3">
-                            <li>√ Uniforme distintivo.</li>
-                            <li>√ Casco.</li>
-                            <li>√ Lentes de seguridad.</li>
-                            <li>√ Gogles.</li>
-                            <li>√ Botas de seguridad con casquillo.</li>
-                            <li>√ Mascarilla para polvos (moldex).</li>
-                            <li>√ Mascarilla para vapores.</li>
-                            <li>√ Mandil de hule.</li>
-                            <li>√ Guantes de carnasa y nitrillo.</li>
-                            <li>√ Botas de hule.</li>
-                            <li>√ Traje tipo buzo (Tívet).</li>
-                        </ul>
+            </div>
+            <!-- slide 4 -->
+            <div class="carousel-item">
+                <div class="slider">
+                    <div class="blue text-light container-fluid h-20">
+                        <div class="row">
+                            <div class="col">
+                                <p class="title pt-4 pl-4 mb-0">AUTOPROTECCIÓN</p>
+                                <p class="pl-4 pt-1 responsive-font">Capacidad, experiencia y equipo necesarios para transportar de forma segura y eficiente productos químicos, agroquímicos y materiales peligrosos en vehículos terrestres.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid h-80 p-0">   
+                        <div class="row h-100">
+                            <div class="col p-0">
+                                <img class="d-block w-100 h-100" id="slide-autoproteccion" src="img/inicio/slide4.png" alt="4 slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- slide 5 -->
+            <div class="carousel-item">
+                <div class="slider">
+                    <div class="blue text-light container-fluid h-20">
+                        <div class="row">
+                            <div class="col">
+                                <p class="title pt-4 pl-4 mb-0">MIEMBROS DE CANACAR Y PROCCYT</p>
+                                <p class="pl-4 py-1 responsive-font">Reconocimiento por parte de PROCCYT por alcanzar los más altos estándares de calidad en transportación, noviembre 2004.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid p-0 h-80">
+                        <div class="row h-100">
+                            <div class="col p-0 align-self-center">
+                                <img class="d-block w-75 mx-auto" id="canacar" src="img/inicio/logo_canacar.png" alt="5 slide">
+                            </div>
+                            <div class="col">
+                                <img class="d-block w-100" id="slide-trailer4" src="img/inicio/residuos.png" alt="5 slide">
+                            </div>
+                            <div class="col p-0 align-self-center">
+                                <img class="d-block w-75 mx-auto" id="slide-proc" src="img/inicio/logo_proccyt.png" alt="5 slide">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -468,9 +466,11 @@
     </footer>
     <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/servicios.js"></script>
     <script src="js/contacto.js"></script>
+    <script src="js/inicio.js"></script>
 </body>
 </html>
