@@ -288,23 +288,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 align-self-center">
-                            <div class="py-3">
-                                <ul class="check">
-                                    <li class="flotilla" id="1"> Rabón de 3 1/2 toneladas</li>
-                                    <li class="flotilla" id="2"> Rabón de 5 toneladas</li>
-                                    <li class="flotilla" id="3"> Rabón de 9 toneladas</li>
-                                    <li class="flotilla" id="4"> Tráiler</li>
-                                    <li class="flotilla" id="5"> Tortón caja seca</li>
-                                    <li class="flotilla" id="6"> Tortón refrigerante</li>
-                                    <li class="flotilla" id="7"> Tolva</li>
-                                    <li class="flotilla checked" id="8"> Portacontenedores</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
+                        <div class="col">
                             <div class="box">
-                                <img src="img/servicios/rabon35.png" id="vehiculo" alt="vehiculo">
+                                <img class="mx-auto d-block" src="img/servicios/rabon35.png" id="vehiculo" alt="vehiculo">
                             </div>
                         </div>
                     </div>

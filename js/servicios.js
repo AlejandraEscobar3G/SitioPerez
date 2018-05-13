@@ -1,11 +1,5 @@
 function changeVehiculo() {
-  if (contador == 0) {
-    $(`li#8`).removeClass("checked text-light");
-  } else {
-    $(`li#${flotilla[contador].id-1}`).removeClass("checked text-light");
-  }
-  $("#vehiculo").css({width:"100%", height:"400px"}).attr("src", flotilla[contador].source);
-  $(`li#${flotilla[contador].id}`).addClass("checked text-light");
+  $("#vehiculo").css({width:"70%"}).attr("src", flotilla[contador].source);
   contador++;
   if (contador >= flotilla.length) {
     contador = 0;
