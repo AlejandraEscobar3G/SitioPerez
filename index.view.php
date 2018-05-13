@@ -59,31 +59,43 @@
             </div>
             <!-- slide 2 -->
             <div class="carousel-item">
-                <div class="position-relative">
-                    <img class="d-block slider" src="img/inicio/slide2.png" alt="2 slide">
-                    <div class="position-absolute top w-100">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><b>¿Quiénes somos?</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><b>Misión</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false"><b>Visión</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false"><b>Valores</b></a>
-                            </li>
-                        </ul>
+                <div class="slider">
+                    <div class="blue text-light container-fluid h-13">
+                        <div class="row h-100">
+                            <div class="col p-0">
+                                <div class="w-100 h-100">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs nav-fill h-100 position-relative" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link h-100 py-4" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><b>¿Quiénes somos?</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link h-100 py-4" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><b>Misión</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link h-100 py-4" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false"><b>Visión</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link h-100 py-4" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false"><b>Valores</b></a>
+                                        </li>
+                                    </ul>
 
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                        <div class="tab-pane field-blue p-3 text-light" id="home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae pariatur nobis, nisi doloremque quas eligendi asperiores quaerat placeat. Placeat distinctio eos incidunt! Iste laborum voluptatum omnis iure distinctio quam!</div>
-                        <div class="tab-pane field-blue p-3 text-light" id="profile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis delectus quam dolore quod ut rerum ad quaerat illo iusto reprehenderit facere asperiores aliquid sapiente, est omnis obcaecati. Quis, perspiciatis quo.</div>
-                        <div class="tab-pane field-blue p-3 text-light" id="messages">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo hic praesentium voluptates blanditiis odio, itaque voluptatibus facere iusto provident fugiat recusandae aliquam quisquam consequuntur! Facere maiores ullam repellendus. Alias, nam.</div>
-                        <div class="tab-pane field-blue p-3 text-light" id="settings">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque modi ex reiciendis pariatur molestiae porro blanditiis ullam animi error similique repellat, tempore quisquam dignissimos unde adipisci fuga ea obcaecati dolore!</div>
+                                    <!-- Tab panes -->
+                                    <div class="tab-content w-100 position-absolute">
+                                        <div class="tab-pane field-blue p-3 text-light" id="home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae pariatur nobis, nisi doloremque quas eligendi asperiores quaerat placeat. Placeat distinctio eos incidunt! Iste laborum voluptatum omnis iure distinctio quam!</div>
+                                        <div class="tab-pane field-blue p-3 text-light" id="profile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis delectus quam dolore quod ut rerum ad quaerat illo iusto reprehenderit facere asperiores aliquid sapiente, est omnis obcaecati. Quis, perspiciatis quo.</div>
+                                        <div class="tab-pane field-blue p-3 text-light" id="messages">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo hic praesentium voluptates blanditiis odio, itaque voluptatibus facere iusto provident fugiat recusandae aliquam quisquam consequuntur! Facere maiores ullam repellendus. Alias, nam.</div>
+                                        <div class="tab-pane field-blue p-3 text-light" id="settings">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque modi ex reiciendis pariatur molestiae porro blanditiis ullam animi error similique repellat, tempore quisquam dignissimos unde adipisci fuga ea obcaecati dolore!</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid h-87 p-0">
+                        <div class="row h-100">
+                            <div class="col p-0">
+                                <img class="d-block w-100 h-100" src="img/inicio/slide2.png" alt="2 slide">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -155,15 +167,7 @@
                     </div>
                     <div class="container-fluid p-0 h-80">
                         <div class="row h-100">
-                            <div class="col p-0 align-self-center">
-                                <img class="d-block w-75 mx-auto" id="canacar" src="img/inicio/logo_canacar.png" alt="5 slide">
-                            </div>
-                            <div class="col align-self-center">
-                                <img class="d-block mx-auto" id="slide-trailer4" src="img/inicio/residuos.png" alt="5 slide">
-                            </div>
-                            <div class="col p-0 align-self-center">
-                                <img class="d-block w-75 mx-auto" id="slide-proc" src="img/inicio/logo_proccyt.png" alt="5 slide">
-                            </div>
+                            <img class="d-block w-100 h-100" src="img/inicio/slide5.jpg" alt="5 slide">
                         </div>
                     </div>
                 </div>

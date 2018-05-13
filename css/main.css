@@ -77,8 +77,16 @@
     .responsive-font {
         font-size: 0.9rem;
     }
-    .top {
-        top: 5%;
+    a.h-100 {
+        color: white;
+    }
+    a.h-100:hover {
+        color: #33357B!important;
+        background-color: white;
+    }
+    .tab-content {
+        z-index: 4!important;
+        left: 0;
     }
 /* servicios styles */
     .close {
