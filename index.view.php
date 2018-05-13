@@ -269,7 +269,7 @@
                         <p class="text-center pb-4">
                             <span class="border-blue py-2 px-3 h3">SERVICIOS</span>
                         </p>
-                        <div class="py-4 border">
+                        <div class="py-4">
                             <ul class="px-2 check">
                                 <li> Servicios nacionales al interior de la República</li>
                                 <li> Servicios de importación y exportación en puertos de Veracruz y Manzanillo. (Portacondenedores).</li>
@@ -289,7 +289,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-4 align-self-center">
-                            <div class="py-3 border">
+                            <div class="py-3">
                                 <ul class="check">
                                     <li class="flotilla" id="1"> Rabón de 3 1/2 toneladas</li>
                                     <li class="flotilla" id="2"> Rabón de 5 toneladas</li>
