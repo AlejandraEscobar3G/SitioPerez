@@ -221,10 +221,11 @@
             <div class="d-none d-sm-block col-sm-2"></div>
         </div>
         <div class="row no-gutters pt-5">
+            <div class="col-md-1 align-self-center"></div>
             <div class="col-12 col-md">
                 <div class="h-100">
                     <p class="text-center display-5">PERMISOS</p>
-                    <div class="p-4 text-left text-light blue text-center">
+                    <div class="p-4 text-left text-light blue text-justify">
                         <p class="p-2">Permiso para el transporte terrestre de materiales y residuos peligrosos, emitido por la SCT (No-1512)</p>
                         <p class="p-2">Permiso para el transporte de residuos ante la SEMARNAT (DFMARNAT-3200-2017)</p>
                         <p class="p-2">Licencias tipo "E" de conductores de camión. Afiliación al seguro social a operadores.</p>
@@ -233,22 +234,23 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-1 align-self-center"></div>
+            <div class="col-md-2 align-self-center"></div>
             <div class="col-12 col-md">
                 <div class="h-100">
                     <p class="text-center display-5">IDENTIFICACIÓN</p>
-                    <div class="p-4 text-light blue text-center">
+                    <div class="p-4 text-light blue text-justify">
                         <p class="p-2">Portarombos</p>
                         <p class="p-2">Datos de teléfono de emergencia</p>
                         <p class="p-2">Guía norteamericana de respuesta a emergencias</p>
                     </div>
                     <p class="text-center display-5">PÓLIZA GNP</p>
-                    <div class="p-4 text-light blue text-center">
+                    <div class="p-4 text-light blue text-justify">
                         <p class="p-2">Seguro ecológico</p>
                         <p class="p-2">Terceros</p>
                     </div>
                 </div>
             </div>
+            <div class="col-md-1 align-self-center"></div>
         </div>
     </div>
     <!-- servicios -->
