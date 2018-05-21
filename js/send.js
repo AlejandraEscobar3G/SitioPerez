@@ -2,19 +2,20 @@
 const nodemailer = require('./lib/nodemailer');
 
 let transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: 'MIAB',
+    host: 'box.corporativoperez.com',
     auth: {
-        user: 'ale.fesico@gmail.com',
-        pass: 'alefesico'
+        user: 'correo web aqui',
+        pass: 'pass web aqui'
     }
 });
 
 let message = {
-    from: 'ale.fesico@gmail.com', 
-    to: 'maury2804arriet@gmail.com',
-    subject: 'Prueba de correo',
-    text: 'Holi boli (:',
-    html: '<p><b>Hola</b> a todos</p>'
+    from: 'correo web aqui', 
+    to: 'destinatario aqui',
+    subject: 'Prueba nueva de correo',
+    text: '',
+    html: '<h1>prueba de correos</h1>'
 };
 
 transporter.sendMail(message, (error, info) => {

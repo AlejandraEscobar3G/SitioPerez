@@ -1,0 +1,19 @@
+{
+  "name": "sitioperez",
+  "version": "1.0.0",
+  "description": "Sitio web Transportadora y Logística Pérez",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandraEscobar3G/SitioPerez.git"
+  },
+  "author": "alefesico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandraEscobar3G/SitioPerez/issues"
+  },
+  "homepage": "https://github.com/AlejandraEscobar3G/SitioPerez#readme"
+}
