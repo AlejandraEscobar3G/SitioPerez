@@ -1,0 +1,323 @@
+extends layout
+
+//- Estilos CSS
+block styles
+  link(rel="stylesheet", href="/stylesheets/menu.css")
+  link(rel='stylesheet', href='/stylesheets/main.css')
+  link(rel='stylesheet', href='/stylesheets/queries.css')
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm', crossorigin='anonymous')
+
+//- Bloque menú
+block menu
+  nav(class="navbar fixed-top navbar-expand-sm", style="background: linear-gradient(180deg, #ACACAC, white);")
+    a(class="pl-3 navbar-brand", href="#")
+      img(src="/images/icons/perez.png", class="logo-perez d-inline-block align-top", alt="logo")
+    button(class="navbar-toggler custom-toggler", type="button", data-toggle="collapse", data-target="#navbarSupportedContent", aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
+      span(class="navbar-toggler-icon")
+    div(class="collapse navbar-collapse", id="navbarSupportedContent")
+      ul(class="navbar-nav ml-auto")
+        li(class="nav-item buttons-menu"): a(class="nav-link", href="#") Empresa
+        li(class="nav-item buttons-menu"): a(class="nav-link", href="#s-certificaciones") Certificaciones
+        li(class="nav-item buttons-menu"): a(class="nav-link", href="#s-servicios") Servicios
+        li(class="nav-item buttons-menu"): a(class="nav-link", href="#s-clientes") Clientes
+        li(class="nav-item buttons-menu"): a(class="nav-link", href="#s-contacto") Contacto
+    a(href="#s-contacto" id="presupuesto" class="position-absolute text-light d-none d-lg-block p-2")
+      small Solicita tu presupuesto 
+        b DAR CLICK
+
+//- Bloque slider
+block slider
+  div(class="carousel slide" data-ride="carousel" id="indicators")
+    ol(class="carousel-indicators")
+      li(data-target="#indicators" data-slide-to="0" class="active")
+      li(data-target="#indicators" data-slide-to="1")
+      li(data-target="#indicators" data-slide-to="2")
+      li(data-target="#indicators" data-slide-to="3")
+      li(data-target="#indicators" data-slide-to="4")
+    div(class="carousel-inner")
+      //- Slide 1
+      div(class="carousel-item active")
+        div(class="position-relative")
+          img(class="d-block slider" src="/images/inicio/slide1.jpg" alt="1 slide")
+      //- Slide 2
+      div(class="carousel-item")
+        div(class="slider")
+          div(class="blue text-light container-fluid h-13")
+            div(class="row h-100")
+              div(class="col p-0")
+                div(class="w-100 h-100")
+                  //- Tabs
+                  ul(class="nav nav-tabs nav-fill h-100 position-relative" id="myTab" role="tablist")
+                    li(class="nav-item")
+                      a(class="nav-link h-100 py-4" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true")
+                        b ¿Quiénes somos?
+                    li(class="nav-item")
+                      a(class="nav-link h-100 py-4" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false")
+                        b Misión
+                    li(class="nav-item")
+                      a(class="nav-link h-100 py-4" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false")
+                        b Visión
+                    li(class="nav-item")
+                      a(class="nav-link h-100 py-4" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false")
+                        b Valores
+                  //- Tab Panes
+                  div(class="tab-content w-100 position-absolute")
+                    div(class="tab-pane field-blue p-3 text-light" id="home") Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae pariatur nobis, nisi doloremque quas eligendi asperiores quaerat placeat. Placeat distinctio eos incidunt! Iste laborum voluptatum omnis iure distinctio quam!
+                    div(class="tab-pane field-blue p-3 text-light" id="profile") Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae pariatur nobis, nisi doloremque quas eligendi asperiores quaerat placeat. Placeat distinctio eos incidunt! Iste laborum voluptatum omnis iure distinctio quam!
+                    div(class="tab-pane field-blue p-3 text-light" id="messages") Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae pariatur nobis, nisi doloremque quas eligendi asperiores quaerat placeat. Placeat distinctio eos incidunt! Iste laborum voluptatum omnis iure distinctio quam!
+                    div(class="tab-pane field-blue p-3 text-light" id="settings") Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae pariatur nobis, nisi doloremque quas eligendi asperiores quaerat placeat. Placeat distinctio eos incidunt! Iste laborum voluptatum omnis iure distinctio quam!
+          div(class="container-fluid h-87 p-0")
+            div(class="row h-100")
+              div(class="col p-0")
+                img(class="d-block w-100 h-100" src="/images/inicio/slide2.png" alt="2 slide")
+      //- Slide 3
+      div(class="carousel-item")
+        div(class="slider")
+          div(class="blue text-light container-fluid h-13")
+            div(class="row")
+              div(class="col")
+                p(class="title pt-4 pl-4") GPS
+          div(class="container-fluid h-87 p-0")
+            div(class="row h-100")
+              div(class="col col-lg-8 p-0")
+                img(class="d-block w-100 h-100" src="/images/inicio/slide3.png" alt="3 slide")
+              div(class="d-none d-lg-block d-xl-block col-lg-4 align-self-center")
+                div(class="pl-1 pr-4 py-2")
+                  ul(class="check-blue font-blue")
+                    li Sistema de rastreo satelital las 24 horas, en todas las unidades.
+                    li Localización en tiempo real.
+                    li Cuentas espejo para nuestros socios comerciales.
+                    li Control de velocidad.
+                    li Paro y bloqueo de motor.
+                    li Reportes dinámicos a nuestros clientes.
+                    li Geocercas y protocolos de seguridad.
+                    li Web Service.
+                    li En nuestras instalaciones contamos con circuito cerrado de televisión, seguridad privada y malla electrificada en toda la periferia de las oficinas y patio de maniobras.
+      //- Slide 4
+      div(class="carousel-item")
+        div(class="slider")
+          div(class="blue text-light container-fluid h-20")
+            div(class="row")
+              div(class="col")
+                p(class="title pt-4 pl-4 mb-0") AUTOPROTECCIÓN
+                p(class="pl-4 pt-1 responsive-font") Capacidad, experiencia y equipo necesarios para transportar de forma segura y eficiente productos químicos, agroquímicos y materiales peligrosos en vehículos terrestres.
+          div(class="container-fluid h-80 p-0")
+            div(class="row h-100")
+              div(class="col p-0")
+                img(class="d-block w-100 h-100" id="slide-autoproteccion" src="/images/inicio/slide4.png" alt="4 slide")
+      //- Slide 5
+      div(class="carousel-item")
+        div(class="slider")
+          div(class="blue text-light container-fluid h-20")
+            div(class="row")
+              div(class="col")
+                p(class="title pt-4 pl-4 mb-0") MIEMBROS DE CANACAR Y PROCCYT
+                p(class="pl-4 py-1 responsive-font") Reconocimiento por parte de PROCCYT por alcanzar los más altos estándares de calidad en transportación, noviembre 2004.
+          div(class="container-fluid p-0 h-80")
+            div(class="row h-100")
+              img(class="d-block w-100 h-100" src="/images/inicio/slide5.jpg" alt="5 slide")
+
+//- Bloque certificaciones
+block certificaciones
+  div(class="container-fluid px-0 fondo position-relative")
+    div(id="s-certificaciones" class="block-hide py-5")
+    div(class="row no-gutters")
+      div(class="col-12 attachment" id="certificaciones")
+        h2(class="p-4 section text-light text-center display-5 mb-0") CERTIFICACIONES
+    div(class="row no-gutters")
+      p(class="col text-center p-5 mb-0") Se cumple con todas las disposiciones referentes a la reglamentación para el transporte terrestre de materiales y residuos peligrosos, de acuerdo al reglamento emitido por la SCT, y las normas oficiales correspondientes
+    div(class="row no-gutters align-items-end")
+      div(class="d-none d-sm-block col-sm-2")
+      div(class="col-6 col-sm-4")
+        img(class="h-90 d-block float-right" src="/images/certificaciones/aniq.png" alt="aniq")
+      div(class="col-6 col-sm-4")
+        img(class="h-90 d-block float-left" src="/images/certificaciones/integral.png" alt="integral")
+      div(class="d-none d-sm-block col-sm-2")
+    div(class="row no-gutters align-items-center")
+      div(class="d-none d-sm-block col-sm-2 col-md-4 p-3")
+        img(class="h-90 d-block float-right" src="/images/certificaciones/oea.png" alt="recurso")
+      div(class="col-12 col-sm-8 col-md-4 blue text-center p-3")
+        p(class="text-light") Miembros del SETIQ ANIQ desde 2009
+        p(class="text-light") Certificación SARI Julio 2013
+        p(class="text-light") Certificado RCMX-009113-0613
+        p(class="text-light") Certificado NEEC 2017 (En proceso)
+        p(class="text-light") Certificación en "Responsabilidad integral" RCMX009113-0613
+      div(class="d-none d-sm-block col-sm-2 col-md-4")
+        img(class="h-90 d-block float-left" src="/images/certificaciones/setiq.png" alt="setiq")
+    div(class="row no-gutters align-items-start")
+      div(class="d-none d-sm-block col-sm-2")
+      div(class="col-6 col-sm-4")
+        img(class="float-right d-block h-90" src="/images/certificaciones/neec.png" alt="neec")
+      div(class="col-6 col-sm-4")
+        img(class="h-90 d-block float-left" src="/images/certificaciones/recurso.jpg" alt="recurso")
+      div(class="d-none d-sm-block col-sm-2")
+    div(class="row no-gutters pt-5")
+      div(class="col-md-1 align-self-center")
+      div(class="col-12 col-md")
+        div(class="h-100")
+          p(class="text-center display-5") PERMISOS
+          div(class="p-4 text-left text-light blue text-justify")
+            p(class="p-2") Permiso para el transporte terrestre de materiales y residuos peligrosos, emitido por la SCT (No-1512)
+            p(class="p-2") Permiso para el transporte de residuos ante la SEMARNAT (DFMARNAT-3200-2017)
+            p(class="p-2") Licencias tipo "E" de conductores de camión. Afiliación al seguro social a operadores.
+            p(class="p-2") Autorización para la recolección y transporte de residuos peligrosos. (15-096-PS-I-54-2003)
+            p(class="p-2") Tarjeta de circulación especificada para el transporte de materiales y residuos peligrosos.
+      div(class="col-md-2 align-self-center")
+      div(class="col-12 col-md")
+        div(class="h-100")
+          p(class="text-center display-5") IDENTIFICACIÓN
+          div(class="p-4 text-light blue text-justify")
+            p(class="p-2") Portarombos
+            p(class="p-2") Datos de teléfono de emergencia
+            p(class="p-2") Guía norteamericana de respuesta a emergencias
+          p(class="text-center display-5") PÓLIZA GNP
+          div(class="p-4 text-light blue text-justify")
+            p(class="p-2") Seguro ecológico
+            p(class="p-2") Terceros
+      div(class="col-md-1 align-self-center")
+
+//- Bloque servicios
+block servicios
+  div(class="container-fluid px-0 fondo position-relative")
+    div(id="s-servicios" class="block-hide py-5")
+    div(class="row no-gutters")
+      div(class="col-12 attachment" id="servicios")
+        h2(class="p-4 section text-light text-center display-5 mb-0") SERVICIOS
+    div(class="position-relative" id="services")
+      div(class="row no-gutters")
+        p(class="col text-center p-5 mb-0") Contamos con el equipo necesario para llevar tu producto a donde tu lo requieras.
+      div(class="row no-gutters p-3")
+        div(class="col-12 col-lg-4")
+          div(class="px-5")
+            p(class="text-center pb-4")
+              span(class="border-blue py-2 px-3 h3") SERVICIOS
+            div(class="py-4")
+              ul(class="px-2 check")
+                li  Servicios nacionales al interior de la República
+                li  Servicios de importación y exportación en puertos de Veracruz y Manzanillo. (Portacondenedores).
+                li  Cruce de frontera (Caja Seca).
+                li  Servicios Refrigerados
+        div(class="col-12 col-lg-8")
+          div(class="row pb-4")
+            div(class="col")
+              p(class="text-center")
+                span(class="border-blue py-2 px-3 h3") FLOTILLA
+          div(class="row")
+            div(class="col")
+              div(class="box")
+                img(class="mx-auto d-block" src="/images/servicios/rabon35.png" id="vehiculo" alt="vehiculo")
+
+//- Bloque clientes
+block clientes
+  div(class="container-fluid px-0 fondo position-relative")
+    div(id="s-clientes" class="block-hide py-5")
+    div(class="row no-gutters")
+      div(class="col-12 attachment" id="clientes")
+        h2(class="p-4 section text-light text-center display-5 mb-0") CLIENTES
+    div(class="row no-gutters justify-content-center")
+      div(class="col-6 col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/dow.png" alt="dow")
+      div(class="col-6 col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/monsanto.png" alt="bayer")
+      div(class="col-6 col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/dupont.png" alt="dupont")
+      div(class="col-6 col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/comex.png" alt="covestro")
+      div(class="d-none d-sm-none d-md-block col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/agricultura.png" alt="agricultura")
+    div(class="row no-gutters justify-content-center")
+      div(class="d-none d-sm-none d-md-block col-md")
+      div(class="col-4 col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/bayer.png" alt="monsanto")
+      div(class="col-4 col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/basf.png" alt="basf")
+      div(class="col-4 col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/covestro.png" alt="comex")
+      div(class="d-none d-sm-none d-md-block col-md")
+    div(class="row no-gutters justify-content-center")
+      div(class="col-6 col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/panalpina.png" alt="panalpina")
+      div(class="col-6 col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/walmart.png" alt="walmart")
+      div(class="col-6 col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/syngenta.png" alt="syngenta")
+      div(class="col-6 col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/chedraui.png" alt="chedraui")
+      div(class="d-none d-sm-none d-md-block col-md align-self-center p-4")
+        img(class="clientes d-block mx-auto" src="/images/clientes/pochteca.png" alt="pochteca")
+
+//- Bloque contacto
+block contacto
+  div(class="container-fluid px-0 fondo position-relative")
+    div(id="s-contacto" class="block-hide py-5")
+    div(class="row no-gutters")
+      div(class="col-12 attachment" id="contacto")
+        h2(class="p-4 section text-light text-center display-5 mb-0") CONTACTO
+    div(class="row no-gutters")
+      p(class="col text-center p-5 mb-0") ¿Requieres más información sobre nuestros servicios? <br/> Pide un presupuesto sin ningún compromiso
+    div(class="row no-gutters")
+      div(class="col-12 col-md-6")
+        form(class="p-4" method="post" action="")
+          div(class="form-group")
+            label(for="name") NOMBRE
+            input(type="text" class="form-control" name="name" id="name" placeholder="Nombre completo" required)
+          div(class="form-group")
+            label(for="email") CORREO ELECTRÓNICO
+            input(type="email" class="form-control" name="email" id="email" placeholder="correo@example.com" required)
+          div(class="form-group")
+            label(for="asunto") ASUNTO
+            select(class="custom-select form-control" name="options" id="options" required)
+              option(value="" selected) Asunto
+              option(value="Facturacion") Facturación
+              option(value="Calidad") Calidad
+              option(value="Servicios") Servicios
+              option(value="Logistica") Logística
+          div(class="form-group")
+            label(for="message") MENSAJE
+            textarea(name="message" class="form-control" id="message" rows="3" placeholder="¿Cómo le podemos ayudar?" required)
+          br
+          button(type="submit" name="submit" id="submit" class="btn btn-default") Enviar
+      div(class="col-12 col-md-6 p-3 position-relative" id="contact")
+        div(class="row")
+          div(class="col")
+            p(class="p-2 text-justify") <b>DIRECCIÓN</b><br/>Av. Juárez No. 17, Centro, Tequixquiac, C.P. 55650, Estado de México
+            br
+            p(class="p-2") <b>TELÉFONOS</b><br/>(01 59) 19 12 08 03<br/>(01 59) 19 12 11 33
+          div(class="col")
+            p(class="p-2 text-justify") <b>HORARIOS</b><br/>Lunes a viernes de 09:00 am - 06:30 pm<br/>Sábados de 09:00 am - 1:00 pm
+            br
+            p(class="p-2 text-justify") <b>EMAIL</b><br/>servicios@corporativoperez.com
+        div(class="row")
+          div(class="col-12")
+            div(class="embed-responsive embed-responsive-16by9")
+              iframe(class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.4375063644284!2d-99.14337158582138!3d19.90596008661724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1862a14336243%3A0x4eb244b1303c732a!2sTransportadora+y+Log%C3%ADstica+Perez!5e0!3m2!1ses!2smx!4v1517908220856" allowfullscreen)
+
+//- Bloque footer
+block footerB
+  footer(class="container-fluid px-0 blue")
+    div(class="row justify-content-between p-4 no-gutters")
+      div(class="col-12 col-sm-6 footer-left")
+        a(class="text-light"  data-toggle="modal" data-target="#avisoPrivacidad")
+          small AVISO DE PRIVACIDAD
+      div(class="col-12 col-sm-6 footer-right")
+        a(class="text-light" href="#")
+          small IR ARRIBA
+      //- Modal
+      div(class="modal fade" id="avisoPrivacidad" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true")
+        div(class="modal-dialog modal-lg" role="document")
+          div(class="modal-content")
+            div(class="modal-header")
+              h5(class="modal-title pl-4") Aviso de privacidad
+              button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                span(aria-hidden="true") &times;
+            div(class="modal-body text-justify py-4 px-5") Este mensaje y documentos adjuntos, no generan ni constituyen acuerdos o vínculos jurídicos, contractuales o similares; no obligan a TRANSPORTADORA Y LOGISTICA PEREZ, S.A. DE C.V., salvo manifestación expresa y por escrito. "Aviso de Confidencialidad". La información contenida y/o adjunta es de uso exclusivo de los destinatarios y considerada como información confidencial, privilegiada y protegida por las Leyes Aplicables. A ninguna persona ajena a dichos destinatarios se le autoriza cualquier clase de uso, divulgación, intercepción o reproducción, parcial o total, de este mensaje y de la información que contiene y/o se adjunta. Si ha recibido este correo por error le solicitamos lo notifique inmediatamente al remitente, reenviando este mensaje y elimínelo de su sistema. En los términos de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, TRANSPORTADORA Y LOGISTICA PEREZ, S.A. DE C.V., es responsable del tratamiento de sus datos personales que tiene registrados, con motivo de su inscripción o información proporcionada a la Institución. Promovemos y defendemos los principios y valores empresariales, sin el afán de molestarle o poner en peligro sus datos. Si usted ya no desea recibir informaciónn nuestra, agradeceríamos nos lo haga saber por cualquiera de los siguientes medios: teléfono (01 591) 9120803, oscar571@prodigy.net.mx  por escrito o de manera personal en Av. Juárez 17 Col. Centro Santiago Tequixquiac, Estado de México.
+
+//- Bloque scripts
+block scripts
+  script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
+  script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous")
+  script(src="/javascripts/servicios.js")
+  script(src="/javascripts/contacto.js")
+  script(src="/javascripts/inicio.js")
