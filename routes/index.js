@@ -14,13 +14,13 @@ router.post('/', function(req, res, next) {
   let emailList = '';
 
   if (optionBox == 'Facturacion') {
-    emailList = ''
+    emailList = 'jocelyn.ramirez@corporativoperez.com, cristian.navarro@corporativoperez.com, iris.valencia@corporativoperez.com';
   } else if (optionBox == 'Calidad') {
-    emailList = ''
+    emailList = 'hugo.rojas@corporativoperez.com';
   } else if (optionBox == 'Servicios') {
-    emailList = ''
+    emailList = 'marco.perez@corporativoperez.com, rosario.gonzalez@corporativoperez.com';
   } else {
-    emailList = ''
+    emailList = 'juan.saucedo@corporativoperez.com, edgar.perez@corporativoperez.com';
   }
 
   let transporter = nodemailer.createTransport({
@@ -28,7 +28,7 @@ router.post('/', function(req, res, next) {
     host: 'box.corporativoperez.com',
     auth: {
         user: 'web@corporativoperez.com',
-        pass: 'password aqui'
+        pass: 'inserte password aqui'
     }
   });
 
@@ -41,17 +41,18 @@ router.post('/', function(req, res, next) {
   };
 
   transporter.sendMail(message, (error, info) => {
-      if (error) {
-          console.log('Hubo un error');
-          console.log(error.message);
-          res.redirect('/');
-          return process.exit(1);
-      }
 
-      res.redirect('#s-contacto');
-      console.log(info.envelope);
-      console.log(info.messageId);
-      console.log(info.message.toString());
+    if (error) {
+      console.log('Hubo un error');
+      console.log(error.message);
+      res.redirect('/');
+      return process.exit(1);
+    }
+
+    res.redirect('#s-contacto');
+    console.log(info.envelope);
+    console.log(info.messageId);
+    console.log(info.message.toString());
   });
 
 });
