@@ -25,10 +25,6 @@
         font-size: 0.42rem;
         padding-top: 0%;
     }
-    #slide-trailer4 {
-        width: 100%;
-        height: 200px;
-    }
     .slider {
         height: 280px!important;
     }
@@ -44,7 +40,7 @@
     .h-80 {
         height: 68%!important;
     }
-    div.carousel-item {
+    div.inicio {
         padding-top: 74px!important;
     }
     .submenu {
@@ -57,6 +53,9 @@
     #vision-box,
     #valores-box {
         left: 0%;
+    }
+    .flotilla-slide {
+        width: 95%;
     }
 }
 
@@ -82,10 +81,6 @@
         font-size: 0.5rem;
         padding-top: 0%;
     }
-    #slide-trailer4 {
-        width: 100%;
-        height: 220px;
-    }
     .slider {
         height: 340px!important;
     }
@@ -101,7 +96,7 @@
     .h-80 {
         height: 68%!important;
     }
-    div.carousel-item {
+    div.inicio {
         padding-top: 74px!important;
     }
     .submenu {
@@ -114,6 +109,9 @@
     #vision-box,
     #valores-box {
         left: 0%;
+    }
+    .flotilla-slide {
+        width: 90%;
     }
 }
 
@@ -142,10 +140,6 @@
         font-size: 0.6rem;
         padding-top: 0%;
     }
-    #slide-trailer4 {
-        width: 100%;
-        height: 278px;
-    }
     .slider {
         height: 400px!important;
     }
@@ -161,7 +155,7 @@
     .h-80 {
         height: 72%!important;
     }
-    div.carousel-item {
+    div.inicio {
         padding-top: 74px!important;
     }
     .submenu {
@@ -172,6 +166,9 @@
     }
     #valores-box {
         left: 50%;
+    }
+    .flotilla-slide {
+        width: 85%;
     }
 }
 
@@ -190,10 +187,6 @@
         width: 100px;
         height: auto;
     }
-    #slide-trailer4 {
-        width: 100%;
-        height: 320px;
-    }
     .slider {
         height: 450px!important;
     }
@@ -209,7 +202,7 @@
     .h-80 {
         height: 75%!important;
     }
-    div.carousel-item {
+    div.inicio {
         padding-top: 69px!important;
     }
     .submenu {
@@ -220,6 +213,9 @@
     }
     #valores-box {
         left: 50%;
+    }
+    .flotilla-slide {
+        width: 72%;
     }
 }
 
@@ -238,10 +234,6 @@
         width: 115px;
         height: auto;
     }
-    #slide-trailer4 {
-        width: 90%;
-        height: 330px;
-    }
     .slider {
         height: 500px!important;
     }
@@ -257,7 +249,7 @@
     .h-80 {
         height: 75%!important;
     }
-    div.carousel-item {
+    div.inicio {
         padding-top: 100px!important;
     }
     .submenu {
@@ -268,6 +260,9 @@
     }
     #valores-box {
         left: 50%;
+    }
+    .flotilla-slide {
+        width: 72%;
     }
 }
 
@@ -286,10 +281,6 @@
         width: 118px;
         height: auto;
     }
-    #slide-trailer4 {
-        width: 90%;
-        height: 460px;
-    }
     .slider {
         height: 600px!important;
     }
@@ -305,7 +296,7 @@
     .h-80 {
         height: 78%!important;
     }
-    div.carousel-item {
+    div.inicio {
         padding-top: 100px!important;
     }
     .submenu {
@@ -324,11 +315,7 @@
         width: 120px;
         height: auto;
     }
-    #slide-trailer4 {
-        width: 80%;
-        height: 490px;
-    }
-    div.carousel-item {
+    div.inicio {
         padding-top: 100px!important;
     }
 }

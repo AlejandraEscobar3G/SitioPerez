@@ -36,10 +36,10 @@ block slider
       li(data-target="#indicators" data-slide-to="4")
     div(class="carousel-inner")
       //- Slide 1
-      div(class="carousel-item active")
+      div(class="carousel-item inicio active")
         img(class="d-block slider" src="/images/inicio/slide1.jpg" alt="1 slide")
       //- Slide 2
-      div(class="carousel-item")
+      div(class="carousel-item inicio")
         div(class="slider")
           div(class="blue text-light container-fluid h-13")
             div(class="row h-100")
@@ -56,7 +56,7 @@ block slider
               div(class="col p-0")
                 img(class="d-block w-100 h-100" src="/images/inicio/slide2.png" alt="2 slide")
       //- Slide 3
-      div(class="carousel-item")
+      div(class="carousel-item inicio")
         div(class="slider")
           div(class="blue text-light container-fluid h-13")
             div(class="row")
@@ -79,7 +79,7 @@ block slider
                     li Web Service.
                     li En nuestras instalaciones contamos con circuito cerrado de televisión, seguridad privada y malla electrificada en toda la periferia de las oficinas y patio de maniobras.
       //- Slide 4
-      div(class="carousel-item")
+      div(class="carousel-item inicio")
         div(class="slider")
           div(class="blue text-light container-fluid h-20")
             div(class="row")
@@ -91,7 +91,7 @@ block slider
               div(class="col p-0")
                 img(class="d-block w-100 h-100" id="slide-autoproteccion" src="/images/inicio/slide4.png" alt="4 slide")
       //- Slide 5
-      div(class="carousel-item")
+      div(class="carousel-item inicio")
         div(class="slider")
           div(class="blue text-light container-fluid h-20")
             div(class="row")
@@ -180,8 +180,24 @@ block servicios
                 span(class="border-blue py-2 px-3 h3") FLOTILLA
           div(class="row")
             div(class="col")
-              div(class="box")
-                img(class="mx-auto d-block" src="/images/servicios/rabon35.png" id="vehiculo" alt="vehiculo")
+              div(class="carousel" data-ride="carousel")
+                div(class="carousel-inner")
+                  div(class="carousel-item active")
+                    img(class="mx-auto flotilla-slide d-block" src="/images/servicios/rabon35.png" alt="camion35")
+                  div(class="carousel-item")
+                    img(class="mx-auto flotilla-slide d-block" src="/images/servicios/rabon5.png" alt="camion5")
+                  div(class="carousel-item")
+                    img(class="mx-auto flotilla-slide d-block" src="/images/servicios/thorton14.png" alt="thorton")
+                  div(class="carousel-item")
+                    img(class="mx-auto flotilla-slide d-block" src="/images/servicios/trailer.png" alt="trailer")
+                  div(class="carousel-item")
+                    img(class="mx-auto flotilla-slide d-block" src="/images/servicios/cajaseca.png" alt="cajaseca")
+                  div(class="carousel-item")
+                    img(class="mx-auto flotilla-slide d-block" src="/images/servicios/refri.png" alt="refri")
+                  div(class="carousel-item")
+                    img(class="mx-auto flotilla-slide d-block" src="/images/servicios/tolva.png" alt="tolva")
+                  div(class="carousel-item")
+                    img(class="mx-auto flotilla-slide d-block" src="/images/servicios/portacontenedor.png" alt="portacontenedor")
 
 //- Bloque clientes
 block clientes

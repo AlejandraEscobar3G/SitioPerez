@@ -16,10 +16,6 @@
     background-image: url("/images/fondos/contacto.jpg");
 }
 
-#slide-proc {
-    width: 50%;
-}
-
 
 /* general styles */
 
@@ -147,6 +143,10 @@ a.h-100 {
 
 .border-blue {
     border: 3px solid #33357B;
+}
+
+.flotilla-slide {
+    width: 70%;
 }
 
 
