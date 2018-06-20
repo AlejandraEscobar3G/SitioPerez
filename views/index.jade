@@ -43,29 +43,15 @@ block slider
         div(class="slider")
           div(class="blue text-light container-fluid h-13")
             div(class="row h-100")
-              div(class="col p-0")
-                div(class="w-100 h-100")
-                  //- Tabs
-                  ul(class="nav nav-tabs nav-fill h-100 position-relative" id="myTab" role="tablist")
-                    li(class="nav-item")
-                      a(class="nav-link responsive-font h-100 py-4" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true")
-                        b ¿Quiénes somos?
-                    li(class="nav-item")
-                      a(class="nav-link responsive-font h-100 py-4" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false")
-                        b Misión
-                    li(class="nav-item")
-                      a(class="nav-link responsive-font h-100 py-4" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false")
-                        b Visión
-                    li(class="nav-item")
-                      a(class="nav-link responsive-font h-100 py-4" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false")
-                        b Valores
-                  //- Tab Panes
-                  div(class="tab-content position-absolute")
-                    div(class="tab-pane field-blue p-3 responsive-font text-light" id="home") Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae pariatur nobis, nisi doloremque quas eligendi asperiores quaerat placeat. Placeat distinctio eos incidunt! Iste laborum voluptatum omnis iure distinctio quam!
-                    div(class="tab-pane field-blue p-3 responsive-font text-light" id="profile") Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae pariatur nobis, nisi doloremque quas eligendi asperiores quaerat placeat. Placeat distinctio eos incidunt! Iste laborum voluptatum omnis iure distinctio quam!
-                    div(class="tab-pane field-blue p-3 responsive-font text-light" id="messages") Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae pariatur nobis, nisi doloremque quas eligendi asperiores quaerat placeat. Placeat distinctio eos incidunt! Iste laborum voluptatum omnis iure distinctio quam!
-                    div(class="tab-pane field-blue p-3 responsive-font text-light" id="settings") Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur beatae pariatur nobis, nisi doloremque quas eligendi asperiores quaerat placeat. Placeat distinctio eos incidunt! Iste laborum voluptatum omnis iure distinctio quam!
-          div(class="container-fluid h-87 p-0")
+              div(class="d-inline-block w-25 responsive-font h-100 text-center submenu" id="quien")
+                p <b>¿Quiénes somos?</b>
+              div(class="d-inline-block w-25 responsive-font h-100 text-center submenu" id="mision") 
+                p <b>Misión</b>
+              div(class="d-inline-block w-25 responsive-font h-100 text-center submenu" id="vision")
+                p <b>Visión</b>
+              div(class="d-inline-block w-25 responsive-font h-100 text-center submenu" id="valores")
+                p <b>Valores</b>
+          div(class="container-fluid h-87 p-0 position-relative" id="submenu")
             div(class="row h-100")
               div(class="col p-0")
                 img(class="d-block w-100 h-100" src="/images/inicio/slide2.png" alt="2 slide")
@@ -155,7 +141,7 @@ block certificaciones
       div(class="col-12 col-md")
         div(class="h-100")
           p(class="text-center display-5") PERMISOS
-          div(class="row justify-content-around align-items-center py-4 text-light blue text-justify")
+          div(class="row no-gutters justify-content-around align-items-center py-4 text-light blue text-justify")
             div(class="col-4")
               p Permiso para el transporte terrestre de materiales y residuos peligrosos, emitido por la SCT (No-1512)
               br
@@ -178,10 +164,10 @@ block servicios
         p(class="col text-center p-5 mb-0") Contamos con el equipo necesario para llevar tu producto a donde tu lo requieras.
       div(class="row no-gutters p-3")
         div(class="col-12 col-lg-4")
-          div(class="px-5")
+          div
             p(class="text-center pb-4")
               span(class="border-blue py-2 px-3 h3") SERVICIOS
-            div(class="py-4")
+            div(class="py-4 px-5")
               ul(class="px-2 check")
                 li  Servicios nacionales al interior de la República
                 li  Servicios de importación y exportación en puertos de Veracruz y Manzanillo. (Portacondenedores).
@@ -276,7 +262,7 @@ block contacto
           div(class="col")
             p(class="p-2 text-justify") <b>HORARIOS</b><br/>Lunes a viernes de 09:00 am - 06:30 pm<br/>Sábados de 09:00 am - 1:00 pm
             br
-            p(class="p-2 text-justify") <b>EMAIL</b><br/>servicios@corporativoperez.com
+            p(class="p-2 text-justify modal-body") <b>EMAIL</b><br/>servicios@corporativoperez.com
         div(class="row")
           div(class="col-12")
             div(class="embed-responsive embed-responsive-16by9")

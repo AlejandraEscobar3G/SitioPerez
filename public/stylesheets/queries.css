@@ -1,25 +1,27 @@
 /* Super small devices (portrait phones, less than 576px) */
+
 @media (max-width: 475.98px) {
-    .buttons-menu{
+    .buttons-menu {
         padding: 1% 5%;
     }
-    .display-5{
+    .display-5 {
         font-size: 25px;
     }
-    .title{
+    .title {
         font-size: 0.6rem;
     }
-    .footer-left, .footer-right{
+    .footer-left,
+    .footer-right {
         text-align: center;
     }
-    .square-contacto>.h1{
+    .square-contacto>.h1 {
         font-size: 20px;
     }
-    .logo-perez{
+    .logo-perez {
         width: 80px;
         height: auto;
     }
-    .responsive-font{
+    .responsive-font {
         font-size: 0.42rem;
         padding-top: 0%;
     }
@@ -45,25 +47,38 @@
     div.carousel-item {
         padding-top: 74px!important;
     }
+    .submenu {
+        padding-top: 3em;
+    }
+    .field-blue {
+        width: 100%;
+    }
+    #mision-box,
+    #vision-box,
+    #valores-box {
+        left: 0%;
+    }
 }
+
 @media (min-width: 376px) and (max-width: 439.98px) {
-    .buttons-menu{
+    .buttons-menu {
         padding: 1% 5%;
     }
-    .title{
+    .title {
         font-size: 1.1rem;
     }
-    .display-5{
+    .display-5 {
         font-size: 30px;
     }
-    .footer-left, .footer-right{
+    .footer-left,
+    .footer-right {
         text-align: center;
     }
-    .logo-perez{
+    .logo-perez {
         width: 90px;
         height: auto;
     }
-    .responsive-font{
+    .responsive-font {
         font-size: 0.5rem;
         padding-top: 0%;
     }
@@ -89,26 +104,41 @@
     div.carousel-item {
         padding-top: 74px!important;
     }
+    .submenu {
+        padding-top: 3.1em;
+    }
+    .field-blue {
+        width: 100%;
+    }
+    #mision-box,
+    #vision-box,
+    #valores-box {
+        left: 0%;
+    }
 }
+
+
 /* Extra small devices (portrait phones, less than 576px) */
+
 @media (min-width: 440px) and (max-width: 575.98px) {
-    .buttons-menu{
+    .buttons-menu {
         padding: 1% 5%;
     }
-    .title{
+    .title {
         font-size: 1.2rem;
     }
-    .display-5{
+    .display-5 {
         font-size: 30px;
     }
-    .footer-left, .footer-right{
+    .footer-left,
+    .footer-right {
         text-align: center;
     }
-    .logo-perez{
+    .logo-perez {
         width: 90px;
         height: auto;
     }
-    .responsive-font{
+    .responsive-font {
         font-size: 0.6rem;
         padding-top: 0%;
     }
@@ -134,17 +164,29 @@
     div.carousel-item {
         padding-top: 74px!important;
     }
+    .submenu {
+        padding-top: 3em;
+    }
+    .field-blue {
+        width: 50%;
+    }
+    #valores-box {
+        left: 50%;
+    }
 }
+
+
 /* Small devices (landscape phones, 576px and up) */
+
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .title{
+    .title {
         font-size: 1.7rem;
     }
-    .responsive-font{
+    .responsive-font {
         font-size: 0.7rem;
         padding-top: 0%;
     }
-    .logo-perez{
+    .logo-perez {
         width: 100px;
         height: auto;
     }
@@ -170,18 +212,29 @@
     div.carousel-item {
         padding-top: 69px!important;
     }
-
+    .submenu {
+        padding-top: 3em;
+    }
+    .field-blue {
+        width: 50%;
+    }
+    #valores-box {
+        left: 50%;
+    }
 }
+
+
 /* Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .title{
+    .title {
         font-size: 2rem;
     }
-    .responsive-font{
+    .responsive-font {
         font-size: 0.7rem;
         padding-top: 0%;
     }
-    .logo-perez{
+    .logo-perez {
         width: 115px;
         height: auto;
     }
@@ -207,17 +260,29 @@
     div.carousel-item {
         padding-top: 100px!important;
     }
+    .submenu {
+        padding-top: 3em;
+    }
+    .field-blue {
+        width: 50%;
+    }
+    #valores-box {
+        left: 50%;
+    }
 }
+
+
 /* Large devices (desktops, 992px and up) */
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .title{
+    .title {
         font-size: 2rem;
     }
-    .responsive-font{
+    .responsive-font {
         font-size: 0.85rem;
         padding-top: 6%;
     }
-    .logo-perez{
+    .logo-perez {
         width: 118px;
         height: auto;
     }
@@ -243,13 +308,19 @@
     div.carousel-item {
         padding-top: 100px!important;
     }
+    .submenu {
+        padding-top: 2em;
+    }
 }
+
+
 /* Extra large devices (large desktops, 1200px and up) */
+
 @media (min-width: 1200px) {
-    .title{
+    .title {
         font-size: 2rem;
     }
-    .logo-perez{
+    .logo-perez {
         width: 120px;
         height: auto;
     }
