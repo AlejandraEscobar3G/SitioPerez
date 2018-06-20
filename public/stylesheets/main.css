@@ -1,19 +1,25 @@
 /* id's styles */
 
 #certificaciones {
-    background-image: url("/images/fondos/certificaciones.jpg");
+    background-image: url("/images/fondos/certificaciones.jpg")!important;
+    height: 100%;
 }
 
 #servicios {
-    background-image: url("/images/fondos/servicio.jpg");
+    background-image: url("/images/fondos/servicio.jpg")!important;
+    height: 100%;
 }
 
 #clientes {
-    background-image: url("/images/fondos/clientes.jpg");
+    background-image: url("/images/fondos/clientes.jpg")!important;
+    height: 100%;
+    z-index: 2;
 }
 
 #contacto {
-    background-image: url("/images/fondos/contacto.jpg");
+    background-image: url("/images/fondos/contacto.jpg")!important;
+    height: 100%;
+    z-index: 2;
 }
 
 
@@ -50,10 +56,10 @@ li.checked {
 }
 
 .attachment {
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: 0% 100% !important;
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ul.check {
