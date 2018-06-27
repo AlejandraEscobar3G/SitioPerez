@@ -42,7 +42,7 @@ block slider
       div(class="carousel-item inicio")
         div(class="slider")
           div(class="blue text-light container-fluid h-13")
-            div(class="row h-100")
+            div(class="row h-100 no-gutters")
               div(class="d-inline-block w-25 responsive-font h-100 text-center submenu" id="quien")
                 p <b>¿Quiénes somos?</b>
               div(class="d-inline-block w-25 responsive-font h-100 text-center submenu" id="mision") 
@@ -52,7 +52,7 @@ block slider
               div(class="d-inline-block w-25 responsive-font h-100 text-center submenu" id="valores")
                 p <b>Valores</b>
           div(class="container-fluid h-87 p-0 position-relative" id="submenu")
-            div(class="row h-100")
+            div(class="row h-100 no-gutters")
               div(class="col p-0")
                 img(class="d-block w-100 h-100" src="/images/inicio/slide2.png" alt="2 slide")
       //- Slide 3
@@ -63,7 +63,7 @@ block slider
               div(class="col")
                 p(class="title pt-4 pl-4") GPS
           div(class="container-fluid h-87 p-0")
-            div(class="row h-100")
+            div(class="row h-100 no-gutters")
               div(class="col col-lg-8 p-0")
                 img(class="d-block w-100 h-100" src="/images/inicio/slide3.png" alt="3 slide")
               div(class="d-none d-lg-block d-xl-block col-lg-4 align-self-center")
@@ -87,7 +87,7 @@ block slider
                 p(class="title pt-4 pl-4 mb-0") AUTOPROTECCIÓN
                 p(class="pl-4 pt-1 responsive-font") Capacidad, experiencia y equipo necesarios para transportar de forma segura y eficiente productos químicos, agroquímicos y materiales peligrosos en vehículos terrestres.
           div(class="container-fluid h-80 p-0")
-            div(class="row h-100")
+            div(class="row h-100 no-gutters")
               div(class="col p-0")
                 img(class="d-block w-100 h-100" id="slide-autoproteccion" src="/images/inicio/slide4.png" alt="4 slide")
       //- Slide 5
@@ -99,7 +99,7 @@ block slider
                 p(class="title pt-4 pl-4 mb-0") MIEMBROS DE CANACAR Y PROCCYT
                 p(class="pl-4 py-1 responsive-font") Reconocimiento por parte de PROCCYT por alcanzar los más altos estándares de calidad en transportación, noviembre 2004.
           div(class="container-fluid p-0 h-80")
-            div(class="row h-100")
+            div(class="row h-100 no-gutters")
               img(class="d-block w-100 h-100" src="/images/inicio/slide5.jpg" alt="5 slide")
     a(class="carousel-control-prev" href="#indicators" role="button" data-slide="prev")
       span(class="carousel-control-prev-icon" aria-hidden="true")
@@ -168,23 +168,23 @@ block servicios
     div(class="position-relative" id="services")
       div(class="row no-gutters")
         p(class="col text-center p-5 mb-0") Contamos con el equipo necesario para llevar tu producto a donde tu lo requieras.
-      div(class="row no-gutters p-3")
-        div(class="col-12 col-lg-4")
+      div(class="row no-gutters")
+        div(class="col-12 col-lg-6")
           div
-            p(class="text-center pb-4")
-              span(class="border-blue py-2 px-3 h3") SERVICIOS
+            div(class="w-75 position-relative blue text-center text-light mb-4 p-4")
+              p(class="position-absolute left border-blue py-2 px-3 h3") SERVICIOS
             div(class="py-4 px-5")
               ul(class="px-2 check")
                 li  Servicios nacionales al interior de la República
                 li  Servicios de importación y exportación en puertos de Veracruz y Manzanillo. (Portacondenedores).
                 li  Cruce de frontera (Caja Seca).
                 li  Servicios Refrigerados
-        div(class="col-12 col-lg-8")
-          div(class="row pb-4")
+        div(class="col-12 col-lg-6")
+          div(class="row no-gutters pb-4")
             div(class="col")
-              p(class="text-center")
-                span(class="border-blue py-2 px-3 h3") FLOTILLA
-          div(class="row")
+              div(class="w-75 position-relative blue text-center text-light float-right p-4")
+                p(class="position-absolute right border-blue py-2 px-3 h3") FLOTILLA
+          div(class="row no-gutters")
             div(class="col")
               div(class="carousel" data-ride="carousel")
                 div(class="carousel-inner")

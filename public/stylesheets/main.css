@@ -176,7 +176,21 @@ ol.carousel-indicators {
 }
 
 .border-blue {
-    border: 3px solid #33357B;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #333776;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+}
+
+.left {
+    transform-origin: bottom left;
+}
+
+.right {
+    transform-origin: 0% -100%;
 }
 
 .flotilla-slide {
